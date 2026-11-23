@@ -1,0 +1,102 @@
+{
+  "verified_at": "2026-11-23T06:44:16.848368+00:00",
+  "source_commits": [
+    {
+      "repository": "exporter",
+      "previous_commit": "58f40e56b13c5b09ceb55a855ab8f4b09b575c41",
+      "commit": "7121b260693bb39d3a2981c6c57448d08dbae7d7"
+    },
+    {
+      "repository": "sherpa-onnx",
+      "previous_commit": "1d4a7b76ef4b498def5f66a3682983c10b70d0f6",
+      "commit": "2f597138fa9f23063152e103fb40667ed780abfb"
+    }
+  ],
+  "checkpoint": "Qwen/Qwen3-ASR-0.6B",
+  "checkpoint_revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+  "python_onnxruntime": "1.24.4",
+  "cpp_onnxruntime": "1.28.2",
+  "default_exporter_tests": {
+    "passed": 8,
+    "skipped": 5,
+    "before_passed": 4,
+    "before_skipped": 9
+  },
+  "checkpoint_exporter_tests": {
+    "passed": 13,
+    "skipped": 0,
+    "warnings": 8
+  },
+  "qwen_tests_passed": 28,
+  "ctest_executables_passed": 36,
+  "full_cpp_build_succeeded": true,
+  "cpplint_passed": true,
+  "git_diff_checks_passed": true,
+  "source_worktrees_clean": true,
+  "warnings": [
+    "Existing PyTorch ONNX export deprecation/tracer warnings",
+    "Existing macOS SDK/libc++ availability and duplicate-library warnings"
+  ],
+  "performance_accuracy_rss_rerun": false,
+  "scope": "Checkpoint-free invalid-mode tests, C++ parameter indentation, and row-access unit-test naming; no inference behavior change.",
+  "original_log_hashes": {
+    "cpplint.log": {
+      "sha256": "1862fd04557cd70afb746d5e32efc176058de4985c9750711ed4e47466db5fcc",
+      "bytes": 214
+    },
+    "exporter-checkpoint.log": {
+      "sha256": "2a63329c38a4be2e296c14ee1a669c382e1329f2e109918635d7a22f25e300ce",
+      "bytes": 3487
+    },
+    "exporter-default.log": {
+      "sha256": "92024be7657bf2e49271ded3855b93db9e40c137c3b1ce5d3993f9c54cc50b61",
+      "bytes": 491
+    },
+    "runtime-build.log": {
+      "sha256": "a0d897b94a0c3043ad6b00af8358ba527daf07fcac447d0699d30c41b1070da1",
+      "bytes": 3873
+    },
+    "runtime-ctest.log": {
+      "sha256": "8768fd50fbf3aecddf8cc0b3a4ba1078e93f38da1c0b7fdc1e7d6212e79afee6",
+      "bytes": 4778
+    },
+    "runtime-full-build.log": {
+      "sha256": "89cdf0d71362c73e52b2d796852afb4f75c71976cb80fcb4cd11ea683a04b2de",
+      "bytes": 26176
+    },
+    "runtime-qwen-tests.log": {
+      "sha256": "d267a4560dc7964682cc43b9b674424458613d9323ec4b19ab121cf0ad35b04e",
+      "bytes": 5113
+    }
+  },
+  "published_log_hashes": {
+    "cpplint.log": {
+      "sha256": "1862fd04557cd70afb746d5e32efc176058de4985c9750711ed4e47466db5fcc",
+      "bytes": 214
+    },
+    "exporter-checkpoint.log": {
+      "sha256": "3e4a69a59cfb8fdbd27336d36804287fb918681a591d6cf943613c70b49fb12d",
+      "bytes": 3355
+    },
+    "exporter-default.log": {
+      "sha256": "92024be7657bf2e49271ded3855b93db9e40c137c3b1ce5d3993f9c54cc50b61",
+      "bytes": 491
+    },
+    "runtime-build.log": {
+      "sha256": "bbeff79b0fe711bd391723aeccf827faf0667fb85dd862d4b975f06a103afd42",
+      "bytes": 3585
+    },
+    "runtime-ctest.log": {
+      "sha256": "1fd174e17c916c92b3e2495567b557d001c522aae0c49db6a8c9b33141bfa2bb",
+      "bytes": 4730
+    },
+    "runtime-full-build.log": {
+      "sha256": "89cdf0d71362c73e52b2d796852afb4f75c71976cb80fcb4cd11ea683a04b2de",
+      "bytes": 26176
+    },
+    "runtime-qwen-tests.log": {
+      "sha256": "14846b55d8b1a0efe480baa1f8adeb0046d6685e75ac6845368a6f19b2d4949a",
+      "bytes": 5065
+    }
+  }
+}

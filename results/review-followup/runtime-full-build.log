@@ -1,0 +1,481 @@
+[  1%] Built target kissfft
+[  2%] Built target ssentencepiece_core
+[  4%] Built target fst
+[  7%] Built target kaldi_native_io_core
+[  8%] Built target utf8proc
+[  8%] Built target gtest
+[  8%] Built target fstfar
+[ 11%] Built target kaldi-native-fbank-core
+[ 11%] Built target gtest_main
+[ 12%] Built target kaldifst_core
+[ 14%] Built target kaldi-decoder-core
+[ 17%] Built target kaldi-hmm-gmm-core
+[ 49%] Built target sherpa-onnx-core
+[ 49%] Linking CXX executable ../../bin/sherpa-onnx-offline
+[ 49%] Linking CXX executable ../../bin/sherpa-onnx
+[ 49%] Linking CXX executable ../../bin/sherpa-onnx-keyword-spotter
+[ 50%] Linking CXX executable ../../bin/sherpa-onnx-fa
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 50%] Built target sherpa-onnx-offline
+[ 50%] Built target sherpa-onnx
+[ 50%] Built target sherpa-onnx-keyword-spotter
+[ 50%] Built target sherpa-onnx-fa
+[ 51%] Linking CXX executable ../../bin/sherpa-onnx-offline-audio-tagging
+[ 51%] Linking CXX executable ../../bin/sherpa-onnx-offline-denoiser
+[ 51%] Linking CXX executable ../../bin/sherpa-onnx-offline-diacritization
+[ 52%] Linking CXX executable ../../bin/sherpa-onnx-offline-language-identification
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 52%] Built target sherpa-onnx-offline-denoiser
+[ 52%] Built target sherpa-onnx-offline-audio-tagging
+[ 52%] Built target sherpa-onnx-offline-diacritization
+[ 52%] Built target sherpa-onnx-offline-language-identification
+[ 52%] Linking CXX executable ../../bin/sherpa-onnx-offline-parallel
+[ 52%] Linking CXX executable ../../bin/sherpa-onnx-offline-punctuation
+[ 52%] Linking CXX executable ../../bin/sherpa-onnx-offline-source-separation
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 52%] Linking CXX executable ../../bin/sherpa-onnx-online-denoiser
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 52%] Built target sherpa-onnx-offline-parallel
+[ 52%] Built target sherpa-onnx-offline-punctuation
+[ 52%] Built target sherpa-onnx-offline-source-separation
+[ 52%] Linking CXX executable ../../bin/sherpa-onnx-online-punctuation
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 54%] Built target sherpa-onnx-online-denoiser
+[ 54%] Linking CXX executable ../../bin/sherpa-onnx-version
+[ 54%] Linking CXX executable ../../bin/sherpa-onnx-vad
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 54%] Linking CXX executable ../../bin/sherpa-onnx-vad-with-offline-asr
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 54%] Built target sherpa-onnx-online-punctuation
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 54%] Built target sherpa-onnx-version
+[ 54%] Linking CXX executable ../../bin/sherpa-onnx-vad-with-online-asr
+[ 54%] Built target sherpa-onnx-vad
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 54%] Linking CXX executable ../../bin/cat-test
+[ 55%] Built target sherpa-onnx-vad-with-offline-asr
+[ 55%] Linking CXX executable ../../bin/circular-buffer-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 55%] Linking CXX executable ../../bin/context-graph-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 55%] Built target sherpa-onnx-vad-with-online-asr
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 55%] Built target cat-test
+[ 55%] Linking CXX executable ../../bin/fa-lexicon-test
+[ 56%] Built target circular-buffer-test
+[ 57%] Linking CXX executable ../../bin/forced-aligner-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 58%] Linking CXX executable ../../bin/lfr-test
+[ 59%] Built target context-graph-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 59%] Linking CXX executable ../../bin/math-test
+[ 59%] Built target fa-lexicon-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 59%] Built target forced-aligner-test
+[ 59%] Linking CXX executable ../../bin/offline-recognizer-canary-impl-test
+[ 59%] Built target lfr-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 59%] Linking CXX executable ../../bin/offline-recognizer-cohere-transcribe-impl-test
+[ 59%] Linking CXX executable ../../bin/offline-recognizer-ctc-impl-test
+[ 59%] Built target math-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 59%] Built target offline-recognizer-canary-impl-test
+[ 59%] Linking CXX executable ../../bin/offline-recognizer-funasr-nano-impl-test
+[ 59%] Linking CXX executable ../../bin/offline-recognizer-moonshine-v2-impl-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 59%] Built target offline-recognizer-cohere-transcribe-impl-test
+[ 60%] Built target offline-recognizer-ctc-impl-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 61%] Built target offline-recognizer-qwen3-asr-impl-test
+[ 61%] Linking CXX executable ../../bin/offline-recognizer-shared-rng-test
+[ 61%] Built target offline-recognizer-funasr-nano-impl-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 61%] Linking CXX executable ../../bin/offline-recognizer-transducer-impl-test
+[ 61%] Linking CXX executable ../../bin/offline-stream-test
+[ 61%] Built target offline-recognizer-moonshine-v2-impl-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 61%] Linking CXX executable ../../bin/offline-whisper-lang-probs-test
+[ 61%] Built target offline-recognizer-shared-rng-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 61%] Built target offline-recognizer-transducer-impl-test
+[ 61%] Built target offline-stream-test
+[ 62%] Linking CXX executable ../../bin/offline-whisper-language-candidates-test
+[ 62%] Linking CXX executable ../../bin/offline-whisper-timestamp-rules-test
+[ 62%] Linking CXX executable ../../bin/packed-sequence-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 62%] Built target offline-whisper-lang-probs-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 62%] Linking CXX executable ../../bin/pad-sequence-test
+[ 62%] Built target offline-whisper-language-candidates-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 62%] Built target offline-whisper-timestamp-rules-test
+[ 62%] Linking CXX executable ../../bin/online-stream-test
+[ 63%] Built target packed-sequence-test
+[ 63%] Linking CXX executable ../../bin/online-recognizer-result-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 64%] Linking CXX executable ../../bin/online-recognizer-transducer-impl-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 64%] Built target pad-sequence-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 65%] Linking CXX executable ../../bin/recognizer-result-json-test
+[ 65%] Built target online-stream-test
+[ 65%] Built target online-recognizer-result-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 65%] Linking CXX executable ../../bin/regex-lang-test
+[ 65%] Built target online-recognizer-transducer-impl-test
+[ 66%] Linking CXX executable ../../bin/session-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 66%] Linking CXX executable ../../bin/slice-test
+[ 66%] Built target recognizer-result-json-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 66%] Built target regex-lang-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 66%] Linking CXX executable ../../bin/stack-test
+[ 66%] Linking CXX executable ../../bin/text-utils-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 66%] Built target session-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 66%] Built target slice-test
+[ 66%] Linking CXX executable ../../bin/text2token-test
+[ 66%] Linking CXX executable ../../bin/transpose-test
+[ 66%] Built target stack-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 66%] Built target text-utils-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 66%] Linking CXX executable ../../bin/unbind-test
+[ 66%] Linking CXX executable ../../bin/utfcpp-test
+[ 67%] Built target text2token-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 67%] Built target transpose-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 67%] Linking CXX executable ../../bin/wave-reader-test
+[ 67%] Linking CXX executable ../../bin/speaker-embedding-manager-test
+[ 67%] Built target unbind-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 67%] Built target utfcpp-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 67%] Built target sherpa-onnx-c-api
+[ 67%] Built target wave-reader-test
+[ 67%] Built target speaker-embedding-manager-test
+[ 68%] Linking CXX executable ../bin/version-c-api
+[ 68%] Linking CXX executable ../bin/decode-file-c-api
+[ 68%] Built target sherpa-onnx-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 68%] Linking CXX executable ../bin/kws-c-api
+[ 68%] Linking CXX executable ../bin/speech-enhancement-gtcrn-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 68%] Built target version-c-api
+[ 68%] Linking CXX executable ../bin/source-separation-spleeter-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 68%] Built target decode-file-c-api
+[ 68%] Linking CXX executable ../bin/source-separation-uvr-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 68%] Built target source-separation-spleeter-c-api
+[ 68%] Built target kws-c-api
+[ 68%] Linking CXX executable ../bin/online-speech-enhancement-gtcrn-c-api
+[ 68%] Linking CXX executable ../bin/speech-enhancement-dpdfnet-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 68%] Built target speech-enhancement-gtcrn-c-api
+[ 68%] Built target source-separation-uvr-c-api
+[ 68%] Linking CXX executable ../bin/online-speech-enhancement-dpdfnet-c-api
+[ 68%] Linking CXX executable ../bin/speech-enhancement-voxlock-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 68%] Built target online-speech-enhancement-gtcrn-c-api
+[ 68%] Built target speech-enhancement-dpdfnet-c-api
+[ 68%] Linking CXX executable ../bin/speech-enhancement-voxlock-with-voice-sample-c-api
+[ 68%] Linking CXX executable ../bin/online-speech-enhancement-voxlock-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 68%] Built target online-speech-enhancement-dpdfnet-c-api
+[ 69%] Built target speech-enhancement-voxlock-c-api
+[ 69%] Linking CXX executable ../bin/spoken-language-identification-c-api
+[ 69%] Linking CXX executable ../bin/online-speech-enhancement-voxlock-with-voice-sample-c-api
+[ 69%] Built target speech-enhancement-voxlock-with-voice-sample-c-api
+[ 69%] Built target online-speech-enhancement-voxlock-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 69%] Linking CXX executable ../bin/speaker-identification-c-api
+[ 70%] Linking CXX executable ../bin/streaming-hlg-decode-file-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 70%] Built target spoken-language-identification-c-api
+[ 71%] Built target online-speech-enhancement-voxlock-with-voice-sample-c-api
+[ 72%] Linking CXX executable ../bin/streaming-t-one-ctc-c-api
+[ 73%] Built target speaker-identification-c-api
+[ 73%] Linking CXX executable ../bin/audio-tagging-c-api
+[ 73%] Built target streaming-hlg-decode-file-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Linking CXX executable ../bin/add-punctuation-c-api
+[ 73%] Linking CXX executable ../bin/add-punctuation-online-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Built target streaming-t-one-ctc-c-api
+[ 73%] Built target audio-tagging-c-api
+[ 73%] Linking CXX executable ../bin/whisper-c-api
+[ 73%] Built target add-punctuation-c-api
+[ 73%] Linking CXX executable ../bin/fire-red-asr-c-api
+[ 73%] Built target add-punctuation-online-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Linking CXX executable ../bin/nemo-canary-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Linking CXX executable ../bin/cohere-transcribe-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Built target whisper-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Built target fire-red-asr-c-api
+[ 73%] Linking CXX executable ../bin/nemo-parakeet-c-api
+[ 73%] Built target nemo-canary-c-api
+[ 73%] Linking CXX executable ../bin/nemo-giga-am-v2-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Built target cohere-transcribe-c-api
+[ 73%] Linking CXX executable ../bin/nemo-ctc-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Linking CXX executable ../bin/sense-voice-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Built target nemo-parakeet-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Built target nemo-giga-am-v2-c-api
+[ 73%] Linking CXX executable ../bin/funasr-nano-c-api
+[ 73%] Built target nemo-ctc-c-api
+[ 73%] Linking CXX executable ../bin/qwen3-asr-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Linking CXX executable ../bin/sense-voice-with-hr-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Built target sense-voice-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Linking CXX executable ../bin/dolphin-ctc-c-api
+[ 74%] Built target funasr-nano-c-api
+[ 74%] Built target qwen3-asr-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 74%] Built target sense-voice-with-hr-c-api
+[ 74%] Linking CXX executable ../bin/moonshine-c-api
+[ 75%] Linking CXX executable ../bin/moonshine-v2-c-api
+[ 75%] Linking CXX executable ../bin/zipformer-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 75%] Built target dolphin-ctc-c-api
+[ 75%] Built target moonshine-c-api
+[ 75%] Linking CXX executable ../bin/zipformer-ctc-hlg-c-api
+[ 75%] Built target moonshine-v2-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 76%] Linking CXX executable ../bin/wenet-ctc-c-api
+[ 76%] Built target zipformer-c-api
+[ 76%] Linking CXX executable ../bin/omnilingual-asr-ctc-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 76%] Linking CXX executable ../bin/medasr-ctc-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 76%] Built target zipformer-ctc-hlg-c-api
+[ 76%] Built target wenet-ctc-c-api
+[ 77%] Linking CXX executable ../bin/fire-red-asr-ctc-c-api
+[ 77%] Built target omnilingual-asr-ctc-c-api
+[ 77%] Linking CXX executable ../bin/streaming-zipformer-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 77%] Built target medasr-ctc-c-api
+[ 77%] Linking CXX executable ../bin/streaming-nemotron-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 77%] Linking CXX executable ../bin/streaming-zipformer-with-hr-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 77%] Built target fire-red-asr-ctc-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 77%] Built target streaming-zipformer-c-api
+[ 77%] Linking CXX executable ../bin/paraformer-c-api
+[ 77%] Built target streaming-nemotron-c-api
+[ 77%] Linking CXX executable ../bin/streaming-paraformer-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 77%] Built target streaming-zipformer-with-hr-c-api
+[ 77%] Linking CXX executable ../bin/telespeech-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 77%] Linking CXX executable ../bin/vad-sense-voice-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 77%] Built target paraformer-c-api
+[ 77%] Built target streaming-paraformer-c-api
+[ 77%] Linking CXX executable ../bin/vad-whisper-c-api
+[ 77%] Built target telespeech-c-api
+[ 78%] Linking CXX executable ../bin/vad-moonshine-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 78%] Linking CXX executable ../bin/streaming-zipformer-buffered-tokens-hotwords-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 78%] Built target vad-sense-voice-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 79%] Linking CXX executable ../bin/streaming-paraformer-buffered-tokens-c-api
+[ 79%] Built target vad-whisper-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 79%] Built target vad-moonshine-c-api
+[ 79%] Linking CXX executable ../bin/streaming-ctc-buffered-tokens-c-api
+[ 79%] Built target streaming-zipformer-buffered-tokens-hotwords-c-api
+[ 79%] Linking CXX executable ../bin/keywords-spotter-buffered-tokens-keywords-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 79%] Linking CXX executable ../bin/forced-alignment-en-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 79%] Built target streaming-paraformer-buffered-tokens-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 80%] Linking CXX executable ../bin/forced-alignment-zh-c-api
+[ 80%] Built target streaming-ctc-buffered-tokens-c-api
+[ 81%] Built target keywords-spotter-buffered-tokens-keywords-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 81%] Linking CXX executable ../bin/version-cxx-api
+[ 81%] Built target forced-alignment-en-c-api
+[ 81%] Linking CXX executable ../bin/streaming-zipformer-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 81%] Linking CXX executable ../bin/streaming-nemotron-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 81%] Built target forced-alignment-zh-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 81%] Built target version-cxx-api
+[ 81%] Linking CXX executable ../bin/streaming-zipformer-with-hr-cxx-api
+[ 82%] Linking CXX executable ../bin/zipformer-ctc-hlg-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 83%] Built target streaming-zipformer-cxx-api
+[ 83%] Built target streaming-nemotron-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 83%] Linking CXX executable ../bin/speech-enhancement-gtcrn-cxx-api
+[ 84%] Linking CXX executable ../bin/source-separation-spleeter-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 85%] Built target streaming-zipformer-with-hr-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 85%] Linking CXX executable ../bin/source-separation-uvr-cxx-api
+[ 85%] Built target zipformer-ctc-hlg-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 85%] Linking CXX executable ../bin/speech-enhancement-dpdfnet-cxx-api
+[ 85%] Built target speech-enhancement-gtcrn-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 85%] Built target source-separation-spleeter-cxx-api
+[ 85%] Linking CXX executable ../bin/online-speech-enhancement-gtcrn-cxx-api
+[ 85%] Linking CXX executable ../bin/online-speech-enhancement-dpdfnet-cxx-api
+[ 85%] Built target source-separation-uvr-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 85%] Linking CXX executable ../bin/speech-enhancement-voxlock-cxx-api
+[ 86%] Built target speech-enhancement-dpdfnet-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 86%] Linking CXX executable ../bin/speech-enhancement-voxlock-with-voice-sample-cxx-api
+[ 87%] Built target online-speech-enhancement-gtcrn-cxx-api
+[ 87%] Built target online-speech-enhancement-dpdfnet-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 87%] Linking CXX executable ../bin/online-speech-enhancement-voxlock-cxx-api
+[ 87%] Built target speech-enhancement-voxlock-cxx-api
+[ 87%] Linking CXX executable ../bin/online-speech-enhancement-voxlock-with-voice-sample-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 87%] Linking CXX executable ../bin/kws-cxx-api
+[ 88%] Built target speech-enhancement-voxlock-with-voice-sample-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 88%] Built target online-speech-enhancement-voxlock-cxx-api
+[ 88%] Linking CXX executable ../bin/audio-tagging-ced-cxx-api
+[ 88%] Built target online-speech-enhancement-voxlock-with-voice-sample-cxx-api
+[ 88%] Linking CXX executable ../bin/audio-tagging-zipformer-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 88%] Linking CXX executable ../bin/streaming-zipformer-rtf-cxx-api
+[ 88%] Built target kws-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 88%] Linking CXX executable ../bin/streaming-t-one-ctc-cxx-api
+[ 89%] Built target audio-tagging-ced-cxx-api
+[ 89%] Built target audio-tagging-zipformer-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 90%] Linking CXX executable ../bin/whisper-cxx-api
+[ 90%] Built target streaming-zipformer-rtf-cxx-api
+[ 90%] Linking CXX executable ../bin/fire-red-asr-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 90%] Linking CXX executable ../bin/fire-red-asr-ctc-cxx-api
+[ 90%] Built target streaming-t-one-ctc-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 90%] Linking CXX executable ../bin/moonshine-cxx-api
+[ 90%] Built target whisper-cxx-api
+[ 90%] Built target fire-red-asr-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 90%] Linking CXX executable ../bin/moonshine-v2-cxx-api
+[ 90%] Built target fire-red-asr-ctc-cxx-api
+[ 91%] Linking CXX executable ../bin/sense-voice-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 91%] Linking CXX executable ../bin/wenet-ctc-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 91%] Built target moonshine-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 91%] Built target moonshine-v2-cxx-api
+[ 92%] Linking CXX executable ../bin/omnilingual-asr-ctc-cxx-api
+[ 92%] Built target sense-voice-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 93%] Linking CXX executable ../bin/medasr-ctc-cxx-api
+[ 93%] Built target wenet-ctc-cxx-api
+[ 94%] Linking CXX executable ../bin/nemo-canary-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 94%] Linking CXX executable ../bin/nemo-giga-am-v2-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 94%] Built target omnilingual-asr-ctc-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 94%] Linking CXX executable ../bin/nemo-ctc-cxx-api
+[ 94%] Built target medasr-ctc-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 94%] Built target nemo-canary-cxx-api
+[ 95%] Built target nemo-giga-am-v2-cxx-api
+[ 95%] Linking CXX executable ../bin/paraformer-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 95%] Linking CXX executable ../bin/streaming-paraformer-cxx-api
+[ 95%] Linking CXX executable ../bin/spoken-language-identification-cxx-api
+[ 95%] Built target nemo-ctc-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 95%] Linking CXX executable ../bin/speaker-identification-cxx-api
+[ 96%] Built target paraformer-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 96%] Built target streaming-paraformer-cxx-api
+[ 96%] Built target spoken-language-identification-cxx-api
+[ 97%] Linking CXX executable ../bin/offline-speaker-diarization-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 97%] Linking CXX executable ../bin/offline-diacritization-cxx-api
+[ 97%] Linking CXX executable ../bin/cohere-transcribe-cxx-api
+[ 97%] Built target speaker-identification-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 97%] Linking CXX executable ../bin/offline-punctuation-cxx-api
+[ 97%] Built target offline-speaker-diarization-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 97%] Built target offline-diacritization-cxx-api
+[ 97%] Linking CXX executable ../bin/online-punctuation-cxx-api
+[ 97%] Built target cohere-transcribe-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 97%] Linking CXX executable ../bin/sense-voice-with-hr-cxx-api
+[ 97%] Linking CXX executable ../bin/dolphin-ctc-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 98%] Built target offline-punctuation-cxx-api
+[ 98%] Linking CXX executable ../bin/vad-cxx-api
+[ 98%] Built target online-punctuation-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[100%] Built target dolphin-ctc-cxx-api
+[100%] Built target sense-voice-with-hr-cxx-api
+[100%] Linking CXX executable ../bin/funasr-nano-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[100%] Linking CXX executable ../bin/qwen3-asr-cxx-api
+[100%] Linking CXX executable ../bin/forced-alignment-en-cxx-api
+[100%] Built target vad-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[100%] Linking CXX executable ../bin/forced-alignment-zh-cxx-api
+[100%] Built target funasr-nano-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[100%] Built target qwen3-asr-cxx-api
+[100%] Built target forced-alignment-en-cxx-api
+[100%] Built target forced-alignment-zh-cxx-api

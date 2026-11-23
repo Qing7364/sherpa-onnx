@@ -1,0 +1,30 @@
+From 7121b260693bb39d3a2981c6c57448d08dbae7d7 Mon Sep 17 00:00:00 2001
+From: qingpeng <qing.peng@zoom.us>
+Date: Sun, 22 Nov 2026 22:43:12 -0800
+Subject: [PATCH] Test invalid logits modes without a checkpoint
+
+---
+ tests/test_decoder_logits_mode.py | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+diff --git a/tests/test_decoder_logits_mode.py b/tests/test_decoder_logits_mode.py
+index 2b9271f..3aa3662 100644
+--- a/tests/test_decoder_logits_mode.py
++++ b/tests/test_decoder_logits_mode.py
+@@ -95,9 +95,11 @@ def test_default_mode_matches_all(thinker):
+ 
+ 
+ @pytest.mark.parametrize("mode", ["", "LAST", "both", None])
+-def test_invalid_logits_mode_rejected(thinker, mode):
++def test_invalid_logits_mode_rejected(mode):
+     with pytest.raises(ValueError, match="logits_mode"):
+-        wrapper(thinker, logits_mode=mode)
++        DecoderCoreWrapper(
++            None, audio_token_id=0, hidden_size=1, logits_mode=mode
++        )
+ 
+ 
+ @pytest.mark.parametrize("mode", [None, "all", "last"])
+-- 
+2.54.0 (Apple Git-157)
+

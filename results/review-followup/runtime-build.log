@@ -1,0 +1,44 @@
+[  2%] Built target kissfft
+[  4%] Built target ssentencepiece_core
+[  8%] Built target fst
+[ 14%] Built target kaldi_native_io_core
+[ 16%] Built target utf8proc
+[ 16%] Built target gtest
+[ 16%] Built target fstfar
+[ 22%] Built target kaldi-native-fbank-core
+[ 22%] Built target gtest_main
+[ 24%] Built target kaldifst_core
+[ 28%] Built target kaldi-decoder-core
+[ 34%] Built target kaldi-hmm-gmm-core
+[ 34%] Building CXX object sherpa-onnx/csrc/CMakeFiles/sherpa-onnx-core.dir/offline-recognizer-impl.cc.o
+[ 34%] Building CXX object sherpa-onnx/csrc/CMakeFiles/sherpa-onnx-core.dir/offline-recognizer-qwen3-asr-impl.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-recognizer-qwen3-asr-impl.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-recognizer-qwen3-asr-impl.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint:146:
+In file included from In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-recognizer-impl.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-recognizer-impl.hwarning: :"The selected platform is no longer supported by libc++." [-W#warnings]8
+:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:943:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  204 | #  warning "The selected plat f owram irnisn gn o" Tlhoen ger supposelected platform ris ntoe dl obnyg elri bscu+p+p.o"r
+t      e| d   ^ 
+by libc++."
+      |    ^
+1 warning generated.
+1 warning generated.
+[ 34%] Linking CXX static library ../../lib/libsherpa-onnx-core.a
+[ 98%] Built target sherpa-onnx-core
+[100%] Building CXX object sherpa-onnx/csrc/CMakeFiles/offline-recognizer-qwen3-asr-impl-test.dir/offline-recognizer-qwen3-asr-impl-test.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-recognizer-qwen3-asr-impl-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-recognizer-qwen3-asr-impl.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint:146:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[100%] Linking CXX executable ../../bin/offline-recognizer-qwen3-asr-impl-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[100%] Built target offline-recognizer-qwen3-asr-impl-test

@@ -1,0 +1,77 @@
+Test project /path/to/sherpa-onnx/build-prefill
+      Start  1: cat-test
+ 1/36 Test  #1: cat-test .........................................   Passed    0.70 sec
+      Start  2: circular-buffer-test
+ 2/36 Test  #2: circular-buffer-test .............................   Passed    0.67 sec
+      Start  3: context-graph-test
+ 3/36 Test  #3: context-graph-test ...............................   Passed    0.63 sec
+      Start  4: fa-lexicon-test
+ 4/36 Test  #4: fa-lexicon-test ..................................   Passed    0.73 sec
+      Start  5: forced-aligner-test
+ 5/36 Test  #5: forced-aligner-test ..............................   Passed    0.65 sec
+      Start  6: lfr-test
+ 6/36 Test  #6: lfr-test .........................................   Passed    0.66 sec
+      Start  7: math-test
+ 7/36 Test  #7: math-test ........................................   Passed    0.64 sec
+      Start  8: offline-recognizer-canary-impl-test
+ 8/36 Test  #8: offline-recognizer-canary-impl-test ..............   Passed    0.64 sec
+      Start  9: offline-recognizer-cohere-transcribe-impl-test
+ 9/36 Test  #9: offline-recognizer-cohere-transcribe-impl-test ...   Passed    0.65 sec
+      Start 10: offline-recognizer-ctc-impl-test
+10/36 Test #10: offline-recognizer-ctc-impl-test .................   Passed    0.83 sec
+      Start 11: offline-recognizer-funasr-nano-impl-test
+11/36 Test #11: offline-recognizer-funasr-nano-impl-test .........   Passed    1.68 sec
+      Start 12: offline-recognizer-moonshine-v2-impl-test
+12/36 Test #12: offline-recognizer-moonshine-v2-impl-test ........   Passed    1.08 sec
+      Start 13: offline-recognizer-qwen3-asr-impl-test
+13/36 Test #13: offline-recognizer-qwen3-asr-impl-test ...........   Passed    0.01 sec
+      Start 14: offline-recognizer-shared-rng-test
+14/36 Test #14: offline-recognizer-shared-rng-test ...............   Passed    1.13 sec
+      Start 15: offline-recognizer-transducer-impl-test
+15/36 Test #15: offline-recognizer-transducer-impl-test ..........   Passed    0.99 sec
+      Start 16: offline-stream-test
+16/36 Test #16: offline-stream-test ..............................   Passed    1.11 sec
+      Start 17: offline-whisper-lang-probs-test
+17/36 Test #17: offline-whisper-lang-probs-test ..................   Passed    1.36 sec
+      Start 18: offline-whisper-language-candidates-test
+18/36 Test #18: offline-whisper-language-candidates-test .........   Passed    1.50 sec
+      Start 19: offline-whisper-timestamp-rules-test
+19/36 Test #19: offline-whisper-timestamp-rules-test .............   Passed    0.86 sec
+      Start 20: packed-sequence-test
+20/36 Test #20: packed-sequence-test .............................   Passed    0.85 sec
+      Start 21: pad-sequence-test
+21/36 Test #21: pad-sequence-test ................................   Passed    0.92 sec
+      Start 22: online-stream-test
+22/36 Test #22: online-stream-test ...............................   Passed    1.07 sec
+      Start 23: online-recognizer-result-test
+23/36 Test #23: online-recognizer-result-test ....................   Passed    1.42 sec
+      Start 24: online-recognizer-transducer-impl-test
+24/36 Test #24: online-recognizer-transducer-impl-test ...........   Passed    0.75 sec
+      Start 25: recognizer-result-json-test
+25/36 Test #25: recognizer-result-json-test ......................   Passed    0.78 sec
+      Start 26: regex-lang-test
+26/36 Test #26: regex-lang-test ..................................   Passed    0.25 sec
+      Start 27: session-test
+27/36 Test #27: session-test .....................................   Passed    0.72 sec
+      Start 28: slice-test
+28/36 Test #28: slice-test .......................................   Passed    0.71 sec
+      Start 29: stack-test
+29/36 Test #29: stack-test .......................................   Passed    0.73 sec
+      Start 30: text-utils-test
+30/36 Test #30: text-utils-test ..................................   Passed    0.72 sec
+      Start 31: text2token-test
+31/36 Test #31: text2token-test ..................................   Passed    0.73 sec
+      Start 32: transpose-test
+32/36 Test #32: transpose-test ...................................   Passed    0.76 sec
+      Start 33: unbind-test
+33/36 Test #33: unbind-test ......................................   Passed    0.76 sec
+      Start 34: utfcpp-test
+34/36 Test #34: utfcpp-test ......................................   Passed    0.78 sec
+      Start 35: wave-reader-test
+35/36 Test #35: wave-reader-test .................................   Passed    0.72 sec
+      Start 36: speaker-embedding-manager-test
+36/36 Test #36: speaker-embedding-manager-test ...................   Passed    0.83 sec
+
+100% tests passed out of 36
+
+Total Test time (real) =  30.40 sec

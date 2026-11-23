@@ -2,6 +2,7 @@
 
 This snapshot supports the exporter and sherpa-onnx changes for Qwen3-ASR-0.6B. It contains the report, reproducibility instructions, validation scripts, per-clip recognition records, raw timing repetitions, compiler/test logs, and source patches. The two production PRs contain only their source changes and tests.
 
+- [PR review follow-up validation](results/review-followup/README.md): default test coverage, C++ formatting/test naming, and fresh test logs at the follow-up commits
 - [Report and measured results](report.md) (Chinese, with numerical tables)
 - [Reproduction instructions](reproduce.md) and [pinned environment](environment.md)
 - [Validation and benchmark scripts](scripts)
@@ -33,6 +34,8 @@ Absolute developer-machine paths in logs and commands are replaced with `/path/t
 Profiler JSON keeps every `model_run` and node `kernel_time` event and their timing, name, category, and input-shape fields. Other event fields are omitted. The retained fields are sufficient for the published summarizer to recompute the reported projection duration and fraction. Original and published hashes plus transformations are recorded in `publication-provenance.json`.
 
 Three script changes make the snapshot usable outside the original machine: the batched evaluator requires an explicit `--binary`; dataset preparation records the frozen AISHELL revision; and the performance summarizer locates each profiler file beside its summary. No model, scoring, sampling, quantization, or measured value was changed. The artifact-tool tests and summary recomputation are checked on these published copies.
+
+The report and measurements below retain their original source revisions. The linked review follow-up records the later test/formatting commits separately; corpus accuracy, performance, RSS and synthetic full-recognizer EOS checks were not repeated for those changes.
 
 ## Source and dataset provenance
 

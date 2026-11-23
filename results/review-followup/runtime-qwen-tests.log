@@ -1,0 +1,71 @@
+Running main() from /path/to/sherpa-onnx/build-prefill/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 28 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from Qwen3ASRPrefillLogits
+[ RUN      ] Qwen3ASRPrefillLogits.SelectedRowHasExpectedTokenScores
+[       OK ] Qwen3ASRPrefillLogits.SelectedRowHasExpectedTokenScores (0 ms)
+[----------] 1 test from Qwen3ASRPrefillLogits (0 ms total)
+
+[----------] 3 tests from TrimAudioFeatures
+[ RUN      ] TrimAudioFeatures.AllSilentSetsFlag
+[       OK ] TrimAudioFeatures.AllSilentSetsFlag (0 ms)
+[ RUN      ] TrimAudioFeatures.TrailingSilenceIsTrimmedAndFlagStaysFalse
+[       OK ] TrimAudioFeatures.TrailingSilenceIsTrimmedAndFlagStaysFalse (0 ms)
+[ RUN      ] TrimAudioFeatures.NoTrailingSilenceFlagStaysFalse
+[       OK ] TrimAudioFeatures.NoTrailingSilenceFlagStaysFalse (0 ms)
+[----------] 3 tests from TrimAudioFeatures (0 ms total)
+
+[----------] 24 tests from Layouts/Qwen3ASRPrefillLogitsIndexTest
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/0
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/0 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/1
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/1 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/2
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/2 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/3
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/3 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/4
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/4 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/5
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/5 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/6
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/6 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/7
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/7 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/8
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/8 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/9
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/9 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/10
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/10 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/11
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/11 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/12
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/12 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/13
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/13 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/14
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/14 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/15
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/15 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/16
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/16 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/17
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/17 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/18
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/18 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/19
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/19 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/20
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/20 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/21
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/21 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/22
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/22 (0 ms)
+[ RUN      ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/23
+[       OK ] Layouts/Qwen3ASRPrefillLogitsIndexTest.SelectsOrRejectsShape/23 (0 ms)
+[----------] 24 tests from Layouts/Qwen3ASRPrefillLogitsIndexTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 28 tests from 3 test suites ran. (0 ms total)
+[  PASSED  ] 28 tests.

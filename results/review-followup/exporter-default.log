@@ -1,0 +1,6 @@
+ssss........s                                                            [100%]
+=========================== short test summary info ============================
+SKIPPED [3] tests/test_decoder_logits_mode.py:65: Pass --checkpoint to run real-model decoder tests
+SKIPPED [1] tests/test_decoder_logits_mode.py:87: Pass --checkpoint to run real-model decoder tests
+SKIPPED [1] tests/test_decoder_logits_mode.py:124: Pass --checkpoint to run real-model decoder tests
+8 passed, 5 skipped in 0.06s
