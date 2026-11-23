@@ -1,0 +1,70 @@
+{
+  "verified_at": "2026-11-23T07:23:17.000450+00:00",
+  "repository": "Wasser1462/Qwen3-ASR-onnx",
+  "source_commit": "549e88622b8e73733deb5b040462e449b55a64d7",
+  "previous_commit": "7121b260693bb39d3a2981c6c57448d08dbae7d7",
+  "runtime_commit_unchanged": "2f597138fa9f23063152e103fb40667ed780abfb",
+  "default_tests": {
+    "passed": 20,
+    "skipped": 5,
+    "warnings": 8,
+    "pytest_seconds": 0.9
+  },
+  "checkpoint_tests": {
+    "passed": 25,
+    "skipped": 0,
+    "warnings": 16,
+    "pytest_seconds": 74.86
+  },
+  "expected_red_without_shape_guard": {
+    "failed": 5,
+    "passed": 2
+  },
+  "offline_environment": {
+    "HF_HUB_OFFLINE": "1",
+    "TRANSFORMERS_OFFLINE": "1"
+  },
+  "checkpoint": "Qwen/Qwen3-ASR-0.6B",
+  "checkpoint_revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+  "python_onnxruntime": "1.24.4",
+  "tiny_model": {
+    "implementation": "Qwen3ASRThinkerForConditionalGeneration",
+    "random_seed": 42,
+    "decoder_layers": 2,
+    "hidden_size": 32,
+    "vocab_size": 128
+  },
+  "git_diff_check_passed": true,
+  "graph_export_and_decoder_computation_unchanged": true,
+  "numerical_verification_tolerance_added": false,
+  "performance_accuracy_rss_rerun": false,
+  "warnings": "Existing TorchScript ONNX export deprecation and TracerWarnings; both tiny and pretrained configurations are now exercised.",
+  "original_log_hashes": {
+    "shape-guard-red.log": {
+      "sha256": "ecde3c62faeb22c7588bc0e8dc60edb9ffe64f7b32ac0cc1b97e51d723f2e4eb",
+      "bytes": 4332
+    },
+    "exporter-default.log": {
+      "sha256": "01bafaf6c4daaa0f0e22b07f04d733604f17f4a42ffa279a8dba6b2b8c0709ef",
+      "bytes": 3797
+    },
+    "exporter-checkpoint.log": {
+      "sha256": "de55f52c814f7b5b7d9d0dc20bf4bba85beed60d813437fcb378a3799d982fd5",
+      "bytes": 4328
+    }
+  },
+  "published_log_hashes": {
+    "exporter-checkpoint.log": {
+      "sha256": "85f401d2b33e29e6c09a5d422dd1a3cee8c72e2348c5474c8307a7247caf663f",
+      "bytes": 4196
+    },
+    "exporter-default.log": {
+      "sha256": "72ae56e7b8163ccbd6e6693041e7273a91b5fb0cc7469aeb1b27486c1a99b390",
+      "bytes": 3665
+    },
+    "shape-guard-red.log": {
+      "sha256": "ecde3c62faeb22c7588bc0e8dc60edb9ffe64f7b32ac0cc1b97e51d723f2e4eb",
+      "bytes": 4332
+    }
+  }
+}

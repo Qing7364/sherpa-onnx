@@ -1,0 +1,104 @@
+..FFFFF                                                                  [100%]
+=================================== FAILURES ===================================
+_ test_decoder_logits_diff_rejects_broadcastable_shapes[onnx_shape0-torch_shape0] _
+
+onnx_shape = (1, 1, 7), torch_shape = (1, 8, 7)
+
+    @pytest.mark.parametrize("onnx_shape,torch_shape", [
+        ((1, 1, 7), (1, 8, 7)),
+        ((1, 8, 7), (1, 1, 7)),
+        ((2, 1, 7), (1, 1, 7)),
+        ((1, 1, 7), (1, 7)),
+        ((1, 1, 7), (1, 1, 1)),
+    ])
+    def test_decoder_logits_diff_rejects_broadcastable_shapes(
+        onnx_shape, torch_shape
+    ):
+>       with pytest.raises(RuntimeError, match="shape mismatch"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'RuntimeError'>
+
+tests/test_decoder_logits_mode.py:145: Failed
+_ test_decoder_logits_diff_rejects_broadcastable_shapes[onnx_shape1-torch_shape1] _
+
+onnx_shape = (1, 8, 7), torch_shape = (1, 1, 7)
+
+    @pytest.mark.parametrize("onnx_shape,torch_shape", [
+        ((1, 1, 7), (1, 8, 7)),
+        ((1, 8, 7), (1, 1, 7)),
+        ((2, 1, 7), (1, 1, 7)),
+        ((1, 1, 7), (1, 7)),
+        ((1, 1, 7), (1, 1, 1)),
+    ])
+    def test_decoder_logits_diff_rejects_broadcastable_shapes(
+        onnx_shape, torch_shape
+    ):
+>       with pytest.raises(RuntimeError, match="shape mismatch"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'RuntimeError'>
+
+tests/test_decoder_logits_mode.py:145: Failed
+_ test_decoder_logits_diff_rejects_broadcastable_shapes[onnx_shape2-torch_shape2] _
+
+onnx_shape = (2, 1, 7), torch_shape = (1, 1, 7)
+
+    @pytest.mark.parametrize("onnx_shape,torch_shape", [
+        ((1, 1, 7), (1, 8, 7)),
+        ((1, 8, 7), (1, 1, 7)),
+        ((2, 1, 7), (1, 1, 7)),
+        ((1, 1, 7), (1, 7)),
+        ((1, 1, 7), (1, 1, 1)),
+    ])
+    def test_decoder_logits_diff_rejects_broadcastable_shapes(
+        onnx_shape, torch_shape
+    ):
+>       with pytest.raises(RuntimeError, match="shape mismatch"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'RuntimeError'>
+
+tests/test_decoder_logits_mode.py:145: Failed
+_ test_decoder_logits_diff_rejects_broadcastable_shapes[onnx_shape3-torch_shape3] _
+
+onnx_shape = (1, 1, 7), torch_shape = (1, 7)
+
+    @pytest.mark.parametrize("onnx_shape,torch_shape", [
+        ((1, 1, 7), (1, 8, 7)),
+        ((1, 8, 7), (1, 1, 7)),
+        ((2, 1, 7), (1, 1, 7)),
+        ((1, 1, 7), (1, 7)),
+        ((1, 1, 7), (1, 1, 1)),
+    ])
+    def test_decoder_logits_diff_rejects_broadcastable_shapes(
+        onnx_shape, torch_shape
+    ):
+>       with pytest.raises(RuntimeError, match="shape mismatch"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'RuntimeError'>
+
+tests/test_decoder_logits_mode.py:145: Failed
+_ test_decoder_logits_diff_rejects_broadcastable_shapes[onnx_shape4-torch_shape4] _
+
+onnx_shape = (1, 1, 7), torch_shape = (1, 1, 1)
+
+    @pytest.mark.parametrize("onnx_shape,torch_shape", [
+        ((1, 1, 7), (1, 8, 7)),
+        ((1, 8, 7), (1, 1, 7)),
+        ((2, 1, 7), (1, 1, 7)),
+        ((1, 1, 7), (1, 7)),
+        ((1, 1, 7), (1, 1, 1)),
+    ])
+    def test_decoder_logits_diff_rejects_broadcastable_shapes(
+        onnx_shape, torch_shape
+    ):
+>       with pytest.raises(RuntimeError, match="shape mismatch"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'RuntimeError'>
+
+tests/test_decoder_logits_mode.py:145: Failed
+=========================== short test summary info ============================
+FAILED tests/test_decoder_logits_mode.py::test_decoder_logits_diff_rejects_broadcastable_shapes[onnx_shape0-torch_shape0]
+FAILED tests/test_decoder_logits_mode.py::test_decoder_logits_diff_rejects_broadcastable_shapes[onnx_shape1-torch_shape1]
+FAILED tests/test_decoder_logits_mode.py::test_decoder_logits_diff_rejects_broadcastable_shapes[onnx_shape2-torch_shape2]
+FAILED tests/test_decoder_logits_mode.py::test_decoder_logits_diff_rejects_broadcastable_shapes[onnx_shape3-torch_shape3]
+FAILED tests/test_decoder_logits_mode.py::test_decoder_logits_diff_rejects_broadcastable_shapes[onnx_shape4-torch_shape4]
+5 failed, 2 passed, 13 deselected in 0.07s

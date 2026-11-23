@@ -14042,6 +14042,48 @@
       "changes": [
         "Label original and path-sanitized published log hashes separately"
       ]
+    },
+    {
+      "path": "results/default-coverage/README.md",
+      "original_sha256": "846557bbb5c318c861e6126d672ffd4c437e5ebb77231b5aa95dbd2e33af8505",
+      "published_sha256": "846557bbb5c318c861e6126d672ffd4c437e5ebb77231b5aa95dbd2e33af8505",
+      "changes": []
+    },
+    {
+      "path": "results/default-coverage/exporter-followup.patch",
+      "original_sha256": "b18e39985b2f6fef71cc60b55c9c5a7741e37625a7f1724dca276f88074e100b",
+      "published_sha256": "b18e39985b2f6fef71cc60b55c9c5a7741e37625a7f1724dca276f88074e100b",
+      "changes": []
+    },
+    {
+      "path": "results/default-coverage/shape-guard-red.log",
+      "original_sha256": "ecde3c62faeb22c7588bc0e8dc60edb9ffe64f7b32ac0cc1b97e51d723f2e4eb",
+      "published_sha256": "ecde3c62faeb22c7588bc0e8dc60edb9ffe64f7b32ac0cc1b97e51d723f2e4eb",
+      "changes": []
+    },
+    {
+      "path": "results/default-coverage/exporter-default.log",
+      "original_sha256": "01bafaf6c4daaa0f0e22b07f04d733604f17f4a42ffa279a8dba6b2b8c0709ef",
+      "published_sha256": "72ae56e7b8163ccbd6e6693041e7273a91b5fb0cc7469aeb1b27486c1a99b390",
+      "changes": [
+        "Replace local absolute path prefixes with portable example paths"
+      ]
+    },
+    {
+      "path": "results/default-coverage/exporter-checkpoint.log",
+      "original_sha256": "de55f52c814f7b5b7d9d0dc20bf4bba85beed60d813437fcb378a3799d982fd5",
+      "published_sha256": "85f401d2b33e29e6c09a5d422dd1a3cee8c72e2348c5474c8307a7247caf663f",
+      "changes": [
+        "Replace local absolute path prefixes with portable example paths"
+      ]
+    },
+    {
+      "path": "results/default-coverage/summary.json",
+      "original_sha256": "ab8f22be70256fe40a59ec27b597ca6a5d554383ffc14755548850a5380d788f",
+      "published_sha256": "1808999cf6400b5fe1ceb5cf873d4d7ed3063ee7f27c135aab2324710012fc07",
+      "changes": [
+        "Add hashes for path-sanitized published logs alongside original hashes"
+      ]
     }
   ]
 }

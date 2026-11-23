@@ -2,6 +2,7 @@
 
 This snapshot supports the exporter and sherpa-onnx changes for Qwen3-ASR-0.6B. It contains the report, reproducibility instructions, validation scripts, per-clip recognition records, raw timing repetitions, compiler/test logs, and source patches. The two production PRs contain only their source changes and tests.
 
+- [Current exporter default-model coverage and verification shapes](results/default-coverage/README.md): offline default 20 passed / 5 skipped; with the checkpoint 25 passed / no skips
 - [PR review follow-up validation](results/review-followup/README.md): default test coverage, C++ formatting/test naming, and fresh test logs at the follow-up commits
 - [Report and measured results](report.md) (Chinese, with numerical tables)
 - [Reproduction instructions](reproduce.md) and [pinned environment](environment.md)
