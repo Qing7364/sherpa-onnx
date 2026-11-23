@@ -1,0 +1,1393 @@
+[  1%] Built target kissfft
+[  2%] Built target ssentencepiece_core
+[  3%] Built target utf8proc
+[  5%] Built target fst
+[  5%] Built target gtest
+[  8%] Built target kaldi_native_io_core
+[  8%] Built target fstfar
+[  8%] Built target gtest_main
+[  9%] Built target kaldifst_core
+[ 12%] Built target kaldi-native-fbank-core
+[ 14%] Built target kaldi-decoder-core
+[ 17%] Built target kaldi-hmm-gmm-core
+[ 49%] Built target sherpa-onnx-core
+[ 49%] Building CXX object sherpa-onnx/csrc/CMakeFiles/sherpa-onnx.dir/sherpa-onnx.cc.o
+[ 49%] Building CXX object sherpa-onnx/csrc/CMakeFiles/sherpa-onnx-keyword-spotter.dir/sherpa-onnx-keyword-spotter.cc.o
+[ 49%] Building CXX object sherpa-onnx/csrc/CMakeFiles/sherpa-onnx-fa.dir/sherpa-onnx-fa.cc.o
+[ 49%] Built target sherpa-onnx-offline
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/sherpa-onnx.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h:93:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/sherpa-onnx-keyword-spotter.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h:93:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/sherpa-onnx-fa.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 49%] Building CXX object sherpa-onnx/csrc/CMakeFiles/sherpa-onnx-offline-audio-tagging.dir/sherpa-onnx-offline-audio-tagging.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/sherpa-onnx-offline-audio-tagging.cc:4:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h:93:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 50%] Linking CXX executable ../../bin/sherpa-onnx-offline-audio-tagging
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[ 51%] Linking CXX executable ../../bin/sherpa-onnx-fa
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 51%] Built target sherpa-onnx-offline-audio-tagging
+[ 51%] Built target sherpa-onnx-fa
+[ 51%] Building CXX object sherpa-onnx/csrc/CMakeFiles/sherpa-onnx-offline-denoiser.dir/sherpa-onnx-offline-denoiser.cc.o
+[ 51%] Building CXX object sherpa-onnx/csrc/CMakeFiles/sherpa-onnx-offline-diacritization.dir/sherpa-onnx-offline-diacritization.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/sherpa-onnx-offline-denoiser.cc:4:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h:93:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/sherpa-onnx-offline-diacritization.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h:93:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 51%] Linking CXX executable ../../bin/sherpa-onnx-offline-denoiser
+1 warning generated.
+[ 51%] Linking CXX executable ../../bin/sherpa-onnx-offline-diacritization
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+1 warning generated.
+[ 51%] Linking CXX executable ../../bin/sherpa-onnx-keyword-spotter
+[ 51%] Linking CXX executable ../../bin/sherpa-onnx
+[ 51%] Built target sherpa-onnx-offline-denoiser
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 51%] Built target sherpa-onnx-offline-diacritization
+[ 51%] Building CXX object sherpa-onnx/csrc/CMakeFiles/sherpa-onnx-offline-language-identification.dir/sherpa-onnx-offline-language-identification.cc.o
+[ 51%] Building CXX object sherpa-onnx/csrc/CMakeFiles/sherpa-onnx-offline-parallel.dir/sherpa-onnx-offline-parallel.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/sherpa-onnx-offline-language-identification.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h:93:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 51%] Built target sherpa-onnx-keyword-spotter
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/sherpa-onnx-offline-parallel.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h:93:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 51%] Built target sherpa-onnx
+[ 51%] Building CXX object sherpa-onnx/csrc/CMakeFiles/sherpa-onnx-offline-punctuation.dir/sherpa-onnx-offline-punctuation.cc.o
+[ 51%] Building CXX object sherpa-onnx/csrc/CMakeFiles/sherpa-onnx-offline-source-separation.dir/sherpa-onnx-offline-source-separation.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/sherpa-onnx-offline-punctuation.cc:4:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h:93:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/sherpa-onnx-offline-source-separation.cc:4:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h:93:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 52%] Linking CXX executable ../../bin/sherpa-onnx-offline-language-identification
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[ 52%] Linking CXX executable ../../bin/sherpa-onnx-offline-punctuation
+1 warning generated.
+[ 52%] Linking CXX executable ../../bin/sherpa-onnx-offline-source-separation
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 52%] Built target sherpa-onnx-offline-language-identification
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 52%] Linking CXX executable ../../bin/sherpa-onnx-offline-parallel
+[ 53%] Building CXX object sherpa-onnx/csrc/CMakeFiles/sherpa-onnx-online-denoiser.dir/sherpa-onnx-online-denoiser.cc.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 53%] Built target sherpa-onnx-offline-punctuation
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/sherpa-onnx-online-denoiser.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h:93:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 53%] Built target sherpa-onnx-offline-source-separation
+[ 53%] Building CXX object sherpa-onnx/csrc/CMakeFiles/sherpa-onnx-online-punctuation.dir/sherpa-onnx-online-punctuation.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/sherpa-onnx-online-punctuation.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h:93:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 53%] Building CXX object sherpa-onnx/csrc/CMakeFiles/sherpa-onnx-version.dir/sherpa-onnx-version.cc.o
+[ 53%] Built target sherpa-onnx-offline-parallel
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/sherpa-onnx-version.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h:93:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 53%] Building CXX object sherpa-onnx/csrc/CMakeFiles/sherpa-onnx-vad.dir/sherpa-onnx-vad.cc.o
+[ 53%] Building CXX object sherpa-onnx/csrc/CMakeFiles/sherpa-onnx-version.dir/version.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/sherpa-onnx-vad.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h:93:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/version.cc:7:
+In file included from /path/to/sherpa-onnx/build-prefill/_deps/onnxruntime-src/include/onnxruntime_c_api.h:32:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h:25:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 54%] Linking CXX executable ../../bin/sherpa-onnx-version
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[ 54%] Linking CXX executable ../../bin/sherpa-onnx-online-denoiser
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 54%] Linking CXX executable ../../bin/sherpa-onnx-online-punctuation
+[ 54%] Built target sherpa-onnx-version
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 55%] Building CXX object sherpa-onnx/csrc/CMakeFiles/sherpa-onnx-vad-with-offline-asr.dir/sherpa-onnx-vad-with-offline-asr.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/sherpa-onnx-vad-with-offline-asr.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h:93:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 55%] Built target sherpa-onnx-online-denoiser
+1 warning generated.
+[ 55%] Linking CXX executable ../../bin/sherpa-onnx-vad
+[ 55%] Built target sherpa-onnx-online-punctuation
+[ 55%] Building CXX object sherpa-onnx/csrc/CMakeFiles/sherpa-onnx-vad-with-online-asr.dir/sherpa-onnx-vad-with-online-asr.cc.o
+ld: warning: ignoring duplicate libraries: '-lm'
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/sherpa-onnx-vad-with-online-asr.cc:9:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h:93:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 55%] Building CXX object sherpa-onnx/csrc/CMakeFiles/cat-test.dir/cat-test.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/cat-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/cat.h:7:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:310:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 55%] Built target sherpa-onnx-vad
+[ 56%] Building CXX object sherpa-onnx/csrc/CMakeFiles/circular-buffer-test.dir/circular-buffer-test.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/circular-buffer-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/circular-buffer.h:7:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint:146:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 56%] Linking CXX executable ../../bin/sherpa-onnx-vad-with-offline-asr
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[ 56%] Linking CXX executable ../../bin/cat-test
+1 warning generated.
+[ 56%] Built target sherpa-onnx-vad-with-offline-asr
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 56%] Linking CXX executable ../../bin/circular-buffer-test
+[ 57%] Building CXX object sherpa-onnx/csrc/CMakeFiles/context-graph-test.dir/context-graph-test.cc.o
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/context-graph-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/context-graph.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:943:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 57%] Built target cat-test
+[ 57%] Built target circular-buffer-test
+[ 57%] Building CXX object sherpa-onnx/csrc/CMakeFiles/fa-lexicon-test.dir/fa-lexicon-test.cc.o
+[ 57%] Building CXX object sherpa-onnx/csrc/CMakeFiles/forced-aligner-test.dir/forced-aligner-test.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/fa-lexicon-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/fa-lexicon.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/forced-aligner-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/forced-aligner.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:943:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 57%] Linking CXX executable ../../bin/sherpa-onnx-vad-with-online-asr
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 57%] Built target sherpa-onnx-vad-with-online-asr
+[ 57%] Building CXX object sherpa-onnx/csrc/CMakeFiles/lfr-test.dir/lfr-test.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/lfr-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/lfr.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint:146:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 57%] Linking CXX executable ../../bin/context-graph-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+1 warning generated.
+[ 58%] Linking CXX executable ../../bin/forced-aligner-test
+[ 58%] Built target context-graph-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 58%] Building CXX object sherpa-onnx/csrc/CMakeFiles/math-test.dir/math-test.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/math-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/math.h:10:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:1840:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 58%] Built target forced-aligner-test
+[ 58%] Building CXX object sherpa-onnx/csrc/CMakeFiles/offline-recognizer-canary-impl-test.dir/offline-recognizer-canary-impl-test.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-recognizer-canary-impl-test.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map:589:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:13:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h:12:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 59%] Linking CXX executable ../../bin/lfr-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 59%] Built target lfr-test
+[ 59%] Building CXX object sherpa-onnx/csrc/CMakeFiles/offline-recognizer-cohere-transcribe-impl-test.dir/offline-recognizer-cohere-transcribe-impl-test.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-recognizer-cohere-transcribe-impl-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-recognizer-cohere-transcribe-impl.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:1840:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 59%] Linking CXX executable ../../bin/fa-lexicon-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 59%] Built target fa-lexicon-test
+[ 60%] Building CXX object sherpa-onnx/csrc/CMakeFiles/offline-recognizer-ctc-impl-test.dir/offline-recognizer-ctc-impl-test.cc.o
+1 warning generated.
+[ 60%] Linking CXX executable ../../bin/math-test
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-recognizer-ctc-impl-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-recognizer-ctc-impl.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ios:217:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+1 warning generated.
+[ 60%] Built target math-test
+[ 60%] Linking CXX executable ../../bin/offline-recognizer-canary-impl-test
+[ 60%] Building CXX object sherpa-onnx/csrc/CMakeFiles/offline-recognizer-funasr-nano-impl-test.dir/offline-recognizer-funasr-nano-impl-test.cc.o
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-recognizer-funasr-nano-impl-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-recognizer-funasr-nano-impl.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:1840:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 60%] Built target offline-recognizer-canary-impl-test
+[ 60%] Building CXX object sherpa-onnx/csrc/CMakeFiles/offline-recognizer-moonshine-v2-impl-test.dir/offline-recognizer-moonshine-v2-impl-test.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-recognizer-moonshine-v2-impl-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-recognizer-moonshine-v2-impl.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:1840:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 60%] Linking CXX executable ../../bin/offline-recognizer-cohere-transcribe-impl-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 60%] Built target offline-recognizer-cohere-transcribe-impl-test
+[ 61%] Built target offline-recognizer-qwen3-asr-impl-test
+[ 61%] Building CXX object sherpa-onnx/csrc/CMakeFiles/offline-recognizer-shared-rng-test.dir/offline-recognizer-shared-rng-test.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-recognizer-shared-rng-test.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/atomic:593:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 61%] Linking CXX executable ../../bin/offline-recognizer-ctc-impl-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+1 warning generated.
+[ 61%] Linking CXX executable ../../bin/offline-recognizer-funasr-nano-impl-test
+1 warning generated.
+[ 61%] Built target offline-recognizer-ctc-impl-test
+[ 61%] Linking CXX executable ../../bin/offline-recognizer-moonshine-v2-impl-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 61%] Building CXX object sherpa-onnx/csrc/CMakeFiles/offline-recognizer-transducer-impl-test.dir/offline-recognizer-transducer-impl-test.cc.o
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 61%] Linking CXX executable ../../bin/offline-recognizer-shared-rng-test
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-recognizer-transducer-impl-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-recognizer-transducer-impl.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream:192:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 61%] Built target offline-recognizer-funasr-nano-impl-test
+[ 61%] Built target offline-recognizer-moonshine-v2-impl-test
+[ 61%] Building CXX object sherpa-onnx/csrc/CMakeFiles/offline-stream-test.dir/offline-stream-test.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-stream-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-stream.h:7:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 61%] Building CXX object sherpa-onnx/csrc/CMakeFiles/offline-whisper-lang-probs-test.dir/offline-whisper-lang-probs-test.cc.o
+[ 61%] Built target offline-recognizer-shared-rng-test
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-whisper-lang-probs-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-whisper-lang-probs.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint:146:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 61%] Building CXX object sherpa-onnx/csrc/CMakeFiles/offline-whisper-language-candidates-test.dir/offline-whisper-language-candidates-test.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-whisper-language-candidates-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-whisper-language-candidates.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:1840:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 61%] Linking CXX executable ../../bin/offline-stream-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+1 warning generated.
+[ 61%] Linking CXX executable ../../bin/offline-whisper-lang-probs-test
+[ 61%] Built target offline-stream-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+1 warning generated.
+[ 61%] Building CXX object sherpa-onnx/csrc/CMakeFiles/offline-whisper-timestamp-rules-test.dir/offline-whisper-timestamp-rules-test.cc.o
+[ 62%] Linking CXX executable ../../bin/offline-whisper-language-candidates-test
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-whisper-timestamp-rules-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/offline-whisper-timestamp-rules.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint:146:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 62%] Built target offline-whisper-lang-probs-test
+[ 63%] Building CXX object sherpa-onnx/csrc/CMakeFiles/packed-sequence-test.dir/packed-sequence-test.cc.o
+[ 63%] Built target offline-whisper-language-candidates-test
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/packed-sequence-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/packed-sequence.h:7:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:310:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 63%] Building CXX object sherpa-onnx/csrc/CMakeFiles/pad-sequence-test.dir/pad-sequence-test.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/pad-sequence-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/pad-sequence.h:7:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:310:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 63%] Linking CXX executable ../../bin/offline-recognizer-transducer-impl-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+1 warning generated.
+[ 63%] Linking CXX executable ../../bin/packed-sequence-test
+[ 63%] Built target offline-recognizer-transducer-impl-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 63%] Building CXX object sherpa-onnx/csrc/CMakeFiles/online-stream-test.dir/online-stream-test.cc.o
+1 warning generated.
+1 warning generated.
+[ 63%] Linking CXX executable ../../bin/pad-sequence-test
+[ 63%] Linking CXX executable ../../bin/offline-whisper-timestamp-rules-test
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/online-stream-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/online-stream.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:943:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 63%] Built target packed-sequence-test
+[ 63%] Building CXX object sherpa-onnx/csrc/CMakeFiles/online-recognizer-result-test.dir/online-recognizer-result-test.cc.o
+[ 63%] Built target pad-sequence-test
+[ 63%] Built target offline-whisper-timestamp-rules-test
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/online-recognizer-result-test.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string:594:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h:12:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h:12:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 63%] Building CXX object sherpa-onnx/csrc/CMakeFiles/online-recognizer-transducer-impl-test.dir/online-recognizer-transducer-impl-test.cc.o
+[ 63%] Building CXX object sherpa-onnx/csrc/CMakeFiles/recognizer-result-json-test.dir/recognizer-result-json-test.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/online-recognizer-transducer-impl-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/online-recognizer-transducer-impl.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:1840:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/recognizer-result-json-test.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint:146:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 63%] Linking CXX executable ../../bin/online-stream-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 63%] Built target online-stream-test
+1 warning generated.
+[ 63%] Linking CXX executable ../../bin/online-recognizer-result-test
+[ 63%] Building CXX object sherpa-onnx/csrc/CMakeFiles/regex-lang-test.dir/regex-lang-test.cc.o
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/regex-lang-test.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream:39:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 63%] Built target online-recognizer-result-test
+1 warning generated.
+[ 63%] Building CXX object sherpa-onnx/csrc/CMakeFiles/session-test.dir/session-test.cc.o
+[ 64%] Linking CXX executable ../../bin/online-recognizer-transducer-impl-test
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/session-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/session.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint:146:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 64%] Built target online-recognizer-transducer-impl-test
+[ 64%] Building CXX object sherpa-onnx/csrc/CMakeFiles/slice-test.dir/slice-test.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/slice-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/slice.h:7:
+In file included from /path/to/sherpa-onnx/build-prefill/_deps/onnxruntime-src/include/onnxruntime_cxx_api.h:26:
+In file included from /path/to/sherpa-onnx/build-prefill/_deps/onnxruntime-src/include/onnxruntime_c_api.h:32:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h:25:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+1 warning generated.
+[ 64%] Linking CXX executable ../../bin/slice-test
+[ 65%] Linking CXX executable ../../bin/recognizer-result-json-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+1 warning generated.
+[ 66%] Linking CXX executable ../../bin/session-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 66%] Built target slice-test
+[ 66%] Built target recognizer-result-json-test
+[ 66%] Building CXX object sherpa-onnx/csrc/CMakeFiles/stack-test.dir/stack-test.cc.o
+[ 66%] Building CXX object sherpa-onnx/csrc/CMakeFiles/text-utils-test.dir/text-utils-test.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/stack-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/stack.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:310:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 66%] Built target session-test
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/text-utils-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/text-utils.h:7:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h:28:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 67%] Building CXX object sherpa-onnx/csrc/CMakeFiles/text2token-test.dir/text2token-test.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/text2token-test.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:943:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 67%] Linking CXX executable ../../bin/regex-lang-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 67%] Built target regex-lang-test
+[ 67%] Building CXX object sherpa-onnx/csrc/CMakeFiles/transpose-test.dir/transpose-test.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/transpose-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/transpose.h:7:
+In file included from /path/to/sherpa-onnx/build-prefill/_deps/onnxruntime-src/include/onnxruntime_cxx_api.h:26:
+In file included from /path/to/sherpa-onnx/build-prefill/_deps/onnxruntime-src/include/onnxruntime_c_api.h:32:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h:25:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 67%] Linking CXX executable ../../bin/stack-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+1 warning generated.
+[ 67%] Linking CXX executable ../../bin/text2token-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 67%] Built target stack-test
+[ 67%] Building CXX object sherpa-onnx/csrc/CMakeFiles/unbind-test.dir/unbind-test.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/unbind-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/unbind.h:7:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:310:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 67%] Built target text2token-test
+[ 67%] Building CXX object sherpa-onnx/csrc/CMakeFiles/utfcpp-test.dir/utfcpp-test.cc.o
+1 warning generated.
+[ 67%] Linking CXX executable ../../bin/transpose-test
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/utfcpp-test.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype:40:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 67%] Built target transpose-test
+1 warning generated.
+[ 67%] Linking CXX executable ../../bin/text-utils-test
+[ 67%] Building CXX object sherpa-onnx/csrc/CMakeFiles/wave-reader-test.dir/wave-reader-test.cc.o
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/wave-reader-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/wave-reader.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:165:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 67%] Built target text-utils-test
+1 warning generated.
+[ 67%] Linking CXX executable ../../bin/utfcpp-test
+[ 67%] Building CXX object sherpa-onnx/csrc/CMakeFiles/speaker-embedding-manager-test.dir/speaker-embedding-manager-test.cc.o
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/speaker-embedding-manager-test.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/csrc/speaker-embedding-manager.h:8:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:943:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 67%] Linking CXX executable ../../bin/unbind-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 67%] Built target utfcpp-test
+[ 67%] Building CXX object sherpa-onnx/c-api/CMakeFiles/sherpa-onnx-c-api.dir/c-api.cc.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/c-api/c-api.cc:5:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/c-api/c-api.h:78:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 67%] Built target unbind-test
+1 warning generated.
+[ 67%] Linking CXX executable ../../bin/wave-reader-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 67%] Built target wave-reader-test
+1 warning generated.
+[ 67%] Linking CXX executable ../../bin/speaker-embedding-manager-test
+ld: warning: ignoring duplicate libraries: '-lm', '../../lib/libgtest.a'
+[ 67%] Built target speaker-embedding-manager-test
+1 warning generated.
+[ 67%] Linking CXX static library ../../lib/libsherpa-onnx-c-api.a
+[ 67%] Built target sherpa-onnx-c-api
+[ 67%] Building CXX object sherpa-onnx/c-api/CMakeFiles/sherpa-onnx-cxx-api.dir/cxx-api.cc.o
+[ 67%] Building C object c-api-examples/CMakeFiles/version-c-api.dir/version-c-api.c.o
+[ 67%] Building C object c-api-examples/CMakeFiles/kws-c-api.dir/kws-c-api.c.o
+[ 67%] Building C object c-api-examples/CMakeFiles/decode-file-c-api.dir/decode-file-c-api.c.o
+In file included from /path/to/sherpa-onnx/sherpa-onnx/c-api/cxx-api.cc:4:
+In file included from /path/to/sherpa-onnx/sherpa-onnx/c-api/cxx-api.h:47:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:535:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 68%] Linking CXX executable ../bin/version-c-api
+[ 68%] Linking CXX executable ../bin/kws-c-api
+[ 68%] Linking CXX executable ../bin/decode-file-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 68%] Built target version-c-api
+[ 68%] Built target kws-c-api
+[ 68%] Built target decode-file-c-api
+[ 68%] Building C object c-api-examples/CMakeFiles/speech-enhancement-gtcrn-c-api.dir/speech-enhancement-gtcrn-c-api.c.o
+[ 68%] Building C object c-api-examples/CMakeFiles/source-separation-spleeter-c-api.dir/source-separation-spleeter-c-api.c.o
+[ 68%] Building C object c-api-examples/CMakeFiles/source-separation-uvr-c-api.dir/source-separation-uvr-c-api.c.o
+[ 68%] Linking CXX executable ../bin/speech-enhancement-gtcrn-c-api
+[ 68%] Linking CXX executable ../bin/source-separation-spleeter-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 68%] Linking CXX executable ../bin/source-separation-uvr-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 68%] Built target speech-enhancement-gtcrn-c-api
+[ 68%] Built target source-separation-spleeter-c-api
+[ 68%] Building C object c-api-examples/CMakeFiles/speech-enhancement-dpdfnet-c-api.dir/speech-enhancement-dpdfnet-c-api.c.o
+[ 68%] Built target source-separation-uvr-c-api
+[ 68%] Building C object c-api-examples/CMakeFiles/online-speech-enhancement-gtcrn-c-api.dir/online-speech-enhancement-gtcrn-c-api.c.o
+[ 68%] Linking CXX executable ../bin/speech-enhancement-dpdfnet-c-api
+[ 68%] Building C object c-api-examples/CMakeFiles/online-speech-enhancement-dpdfnet-c-api.dir/online-speech-enhancement-dpdfnet-c-api.c.o
+[ 68%] Linking CXX executable ../bin/online-speech-enhancement-gtcrn-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 68%] Linking CXX executable ../bin/online-speech-enhancement-dpdfnet-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 68%] Built target speech-enhancement-dpdfnet-c-api
+1 warning generated.
+[ 68%] Linking CXX static library ../../lib/libsherpa-onnx-cxx-api.a
+[ 69%] Building C object c-api-examples/CMakeFiles/speech-enhancement-voxlock-c-api.dir/speech-enhancement-voxlock-c-api.c.o
+[ 69%] Built target online-speech-enhancement-gtcrn-c-api
+[ 69%] Built target online-speech-enhancement-dpdfnet-c-api
+[ 69%] Building C object c-api-examples/CMakeFiles/speech-enhancement-voxlock-with-voice-sample-c-api.dir/speech-enhancement-voxlock-with-voice-sample-c-api.c.o
+[ 69%] Linking CXX executable ../bin/speech-enhancement-voxlock-c-api
+[ 69%] Built target sherpa-onnx-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 69%] Building C object c-api-examples/CMakeFiles/online-speech-enhancement-voxlock-c-api.dir/online-speech-enhancement-voxlock-c-api.c.o
+[ 69%] Linking CXX executable ../bin/speech-enhancement-voxlock-with-voice-sample-c-api
+[ 70%] Building C object c-api-examples/CMakeFiles/online-speech-enhancement-voxlock-with-voice-sample-c-api.dir/online-speech-enhancement-voxlock-with-voice-sample-c-api.c.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 70%] Linking CXX executable ../bin/online-speech-enhancement-voxlock-c-api
+[ 70%] Built target speech-enhancement-voxlock-c-api
+[ 70%] Linking CXX executable ../bin/online-speech-enhancement-voxlock-with-voice-sample-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 70%] Building C object c-api-examples/CMakeFiles/spoken-language-identification-c-api.dir/spoken-language-identification-c-api.c.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 70%] Built target speech-enhancement-voxlock-with-voice-sample-c-api
+[ 70%] Linking CXX executable ../bin/spoken-language-identification-c-api
+[ 71%] Building C object c-api-examples/CMakeFiles/speaker-identification-c-api.dir/speaker-identification-c-api.c.o
+[ 71%] Built target online-speech-enhancement-voxlock-c-api
+[ 71%] Built target online-speech-enhancement-voxlock-with-voice-sample-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 71%] Building C object c-api-examples/CMakeFiles/streaming-hlg-decode-file-c-api.dir/streaming-hlg-decode-file-c-api.c.o
+[ 71%] Linking CXX executable ../bin/speaker-identification-c-api
+[ 71%] Building C object c-api-examples/CMakeFiles/streaming-t-one-ctc-c-api.dir/streaming-t-one-ctc-c-api.c.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 72%] Linking CXX executable ../bin/streaming-hlg-decode-file-c-api
+[ 72%] Built target spoken-language-identification-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Linking CXX executable ../bin/streaming-t-one-ctc-c-api
+[ 73%] Building C object c-api-examples/CMakeFiles/audio-tagging-c-api.dir/audio-tagging-c-api.c.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Built target speaker-identification-c-api
+[ 73%] Linking CXX executable ../bin/audio-tagging-c-api
+[ 73%] Built target streaming-hlg-decode-file-c-api
+[ 73%] Building C object c-api-examples/CMakeFiles/add-punctuation-c-api.dir/add-punctuation-c-api.c.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Building C object c-api-examples/CMakeFiles/add-punctuation-online-c-api.dir/add-punctuation-online-c-api.c.o
+[ 73%] Built target streaming-t-one-ctc-c-api
+[ 73%] Linking CXX executable ../bin/add-punctuation-c-api
+[ 73%] Building C object c-api-examples/CMakeFiles/whisper-c-api.dir/whisper-c-api.c.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Linking CXX executable ../bin/add-punctuation-online-c-api
+[ 73%] Built target audio-tagging-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Linking CXX executable ../bin/whisper-c-api
+[ 73%] Building C object c-api-examples/CMakeFiles/fire-red-asr-c-api.dir/fire-red-asr-c-api.c.o
+[ 73%] Built target add-punctuation-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Linking CXX executable ../bin/fire-red-asr-c-api
+[ 73%] Built target add-punctuation-online-c-api
+[ 73%] Building C object c-api-examples/CMakeFiles/nemo-canary-c-api.dir/nemo-canary-c-api.c.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Building C object c-api-examples/CMakeFiles/cohere-transcribe-c-api.dir/cohere-transcribe-c-api.c.o
+[ 73%] Linking CXX executable ../bin/nemo-canary-c-api
+[ 73%] Built target whisper-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Linking CXX executable ../bin/cohere-transcribe-c-api
+[ 73%] Building C object c-api-examples/CMakeFiles/nemo-parakeet-c-api.dir/nemo-parakeet-c-api.c.o
+[ 73%] Built target fire-red-asr-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Building C object c-api-examples/CMakeFiles/nemo-giga-am-v2-c-api.dir/nemo-giga-am-v2-c-api.c.o
+[ 73%] Linking CXX executable ../bin/nemo-parakeet-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Linking CXX executable ../bin/nemo-giga-am-v2-c-api
+[ 73%] Built target nemo-canary-c-api
+[ 73%] Built target cohere-transcribe-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 73%] Building C object c-api-examples/CMakeFiles/nemo-ctc-c-api.dir/nemo-ctc-c-api.c.o
+[ 73%] Building C object c-api-examples/CMakeFiles/sense-voice-c-api.dir/sense-voice-c-api.c.o
+[ 73%] Built target nemo-parakeet-c-api
+[ 73%] Linking CXX executable ../bin/nemo-ctc-c-api
+[ 73%] Linking CXX executable ../bin/sense-voice-c-api
+[ 74%] Building C object c-api-examples/CMakeFiles/funasr-nano-c-api.dir/funasr-nano-c-api.c.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 74%] Built target nemo-giga-am-v2-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 74%] Building C object c-api-examples/CMakeFiles/qwen3-asr-c-api.dir/qwen3-asr-c-api.c.o
+[ 74%] Linking CXX executable ../bin/funasr-nano-c-api
+[ 74%] Built target nemo-ctc-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 74%] Built target sense-voice-c-api
+[ 74%] Linking CXX executable ../bin/qwen3-asr-c-api
+[ 74%] Building C object c-api-examples/CMakeFiles/sense-voice-with-hr-c-api.dir/sense-voice-with-hr-c-api.c.o
+[ 74%] Building C object c-api-examples/CMakeFiles/dolphin-ctc-c-api.dir/dolphin-ctc-c-api.c.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 74%] Built target funasr-nano-c-api
+[ 74%] Linking CXX executable ../bin/sense-voice-with-hr-c-api
+[ 74%] Linking CXX executable ../bin/dolphin-ctc-c-api
+[ 74%] Building C object c-api-examples/CMakeFiles/moonshine-c-api.dir/moonshine-c-api.c.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 74%] Built target qwen3-asr-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 74%] Building C object c-api-examples/CMakeFiles/moonshine-v2-c-api.dir/moonshine-v2-c-api.c.o
+[ 74%] Linking CXX executable ../bin/moonshine-c-api
+[ 74%] Built target sense-voice-with-hr-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 74%] Built target dolphin-ctc-c-api
+[ 75%] Linking CXX executable ../bin/moonshine-v2-c-api
+[ 75%] Building C object c-api-examples/CMakeFiles/zipformer-c-api.dir/zipformer-c-api.c.o
+[ 75%] Building C object c-api-examples/CMakeFiles/zipformer-ctc-hlg-c-api.dir/zipformer-ctc-hlg-c-api.c.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 75%] Built target moonshine-c-api
+[ 75%] Linking CXX executable ../bin/zipformer-c-api
+[ 75%] Linking CXX executable ../bin/zipformer-ctc-hlg-c-api
+[ 75%] Building C object c-api-examples/CMakeFiles/wenet-ctc-c-api.dir/wenet-ctc-c-api.c.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 75%] Built target moonshine-v2-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 75%] Building C object c-api-examples/CMakeFiles/omnilingual-asr-ctc-c-api.dir/omnilingual-asr-ctc-c-api.c.o
+[ 76%] Linking CXX executable ../bin/wenet-ctc-c-api
+[ 76%] Built target zipformer-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 76%] Linking CXX executable ../bin/omnilingual-asr-ctc-c-api
+[ 76%] Built target zipformer-ctc-hlg-c-api
+[ 76%] Building C object c-api-examples/CMakeFiles/medasr-ctc-c-api.dir/medasr-ctc-c-api.c.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 76%] Building C object c-api-examples/CMakeFiles/fire-red-asr-ctc-c-api.dir/fire-red-asr-ctc-c-api.c.o
+[ 76%] Linking CXX executable ../bin/medasr-ctc-c-api
+[ 76%] Built target wenet-ctc-c-api
+[ 77%] Linking CXX executable ../bin/fire-red-asr-ctc-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 77%] Built target omnilingual-asr-ctc-c-api
+[ 77%] Building C object c-api-examples/CMakeFiles/streaming-zipformer-c-api.dir/streaming-zipformer-c-api.c.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 77%] Building C object c-api-examples/CMakeFiles/streaming-nemotron-c-api.dir/streaming-nemotron-c-api.c.o
+[ 77%] Linking CXX executable ../bin/streaming-zipformer-c-api
+[ 77%] Built target medasr-ctc-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 77%] Linking CXX executable ../bin/streaming-nemotron-c-api
+[ 77%] Built target fire-red-asr-ctc-c-api
+[ 77%] Building C object c-api-examples/CMakeFiles/streaming-zipformer-with-hr-c-api.dir/streaming-zipformer-with-hr-c-api.c.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 77%] Building C object c-api-examples/CMakeFiles/paraformer-c-api.dir/paraformer-c-api.c.o
+[ 77%] Linking CXX executable ../bin/streaming-zipformer-with-hr-c-api
+[ 77%] Built target streaming-zipformer-c-api
+[ 77%] Linking CXX executable ../bin/paraformer-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 77%] Built target streaming-nemotron-c-api
+[ 77%] Building C object c-api-examples/CMakeFiles/streaming-paraformer-c-api.dir/streaming-paraformer-c-api.c.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 77%] Building C object c-api-examples/CMakeFiles/telespeech-c-api.dir/telespeech-c-api.c.o
+[ 77%] Linking CXX executable ../bin/streaming-paraformer-c-api
+[ 77%] Built target streaming-zipformer-with-hr-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 77%] Linking CXX executable ../bin/telespeech-c-api
+[ 77%] Built target paraformer-c-api
+[ 77%] Building C object c-api-examples/CMakeFiles/vad-sense-voice-c-api.dir/vad-sense-voice-c-api.c.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 77%] Building C object c-api-examples/CMakeFiles/vad-whisper-c-api.dir/vad-whisper-c-api.c.o
+[ 77%] Linking CXX executable ../bin/vad-sense-voice-c-api
+[ 77%] Built target streaming-paraformer-c-api
+[ 77%] Building C object c-api-examples/CMakeFiles/vad-moonshine-c-api.dir/vad-moonshine-c-api.c.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 77%] Linking CXX executable ../bin/vad-whisper-c-api
+[ 77%] Built target telespeech-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 77%] Building C object c-api-examples/CMakeFiles/streaming-zipformer-buffered-tokens-hotwords-c-api.dir/streaming-zipformer-buffered-tokens-hotwords-c-api.c.o
+[ 78%] Linking CXX executable ../bin/vad-moonshine-c-api
+[ 78%] Built target vad-sense-voice-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 78%] Linking CXX executable ../bin/streaming-zipformer-buffered-tokens-hotwords-c-api
+[ 78%] Building C object c-api-examples/CMakeFiles/streaming-paraformer-buffered-tokens-c-api.dir/streaming-paraformer-buffered-tokens-c-api.c.o
+[ 78%] Built target vad-whisper-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 78%] Building C object c-api-examples/CMakeFiles/streaming-ctc-buffered-tokens-c-api.dir/streaming-ctc-buffered-tokens-c-api.c.o
+[ 78%] Built target vad-moonshine-c-api
+[ 79%] Linking CXX executable ../bin/streaming-paraformer-buffered-tokens-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 80%] Building C object c-api-examples/CMakeFiles/keywords-spotter-buffered-tokens-keywords-c-api.dir/keywords-spotter-buffered-tokens-keywords-c-api.c.o
+[ 80%] Built target streaming-zipformer-buffered-tokens-hotwords-c-api
+[ 80%] Linking CXX executable ../bin/streaming-ctc-buffered-tokens-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 80%] Building C object c-api-examples/CMakeFiles/forced-alignment-en-c-api.dir/forced-alignment-en-c-api.c.o
+[ 80%] Linking CXX executable ../bin/keywords-spotter-buffered-tokens-keywords-c-api
+[ 80%] Built target streaming-paraformer-buffered-tokens-c-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 80%] Linking CXX executable ../bin/forced-alignment-en-c-api
+[ 80%] Building C object c-api-examples/CMakeFiles/forced-alignment-zh-c-api.dir/forced-alignment-zh-c-api.c.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 80%] Built target streaming-ctc-buffered-tokens-c-api
+[ 80%] Building CXX object cxx-api-examples/CMakeFiles/version-cxx-api.dir/version-cxx-api.cc.o
+[ 81%] Linking CXX executable ../bin/forced-alignment-zh-c-api
+[ 81%] Built target keywords-spotter-buffered-tokens-keywords-c-api
+In file included from /path/to/sherpa-onnx/cxx-api-examples/version-cxx-api.cc:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream:39:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 81%] Built target forced-alignment-en-c-api
+[ 82%] Building CXX object cxx-api-examples/CMakeFiles/streaming-zipformer-cxx-api.dir/streaming-zipformer-cxx-api.cc.o
+[ 82%] Building CXX object cxx-api-examples/CMakeFiles/streaming-nemotron-cxx-api.dir/streaming-nemotron-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/streaming-zipformer-cxx-api.cc:16:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+In file included from /path/to/sherpa-onnx/cxx-api-examples/streaming-nemotron-cxx-api.cc:16:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 82%] Built target forced-alignment-zh-c-api
+[ 83%] Building CXX object cxx-api-examples/CMakeFiles/streaming-zipformer-with-hr-cxx-api.dir/streaming-zipformer-with-hr-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/streaming-zipformer-with-hr-cxx-api.cc:23:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 83%] Linking CXX executable ../bin/version-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[ 83%] Linking CXX executable ../bin/streaming-zipformer-cxx-api
+1 warning generated.
+[ 83%] Linking CXX executable ../bin/streaming-nemotron-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 83%] Built target version-cxx-api
+1 warning generated.
+[ 83%] Linking CXX executable ../bin/streaming-zipformer-with-hr-cxx-api
+[ 83%] Building CXX object cxx-api-examples/CMakeFiles/zipformer-ctc-hlg-cxx-api.dir/zipformer-ctc-hlg-cxx-api.cc.o
+[ 83%] Built target streaming-zipformer-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+In file included from /path/to/sherpa-onnx/cxx-api-examples/zipformer-ctc-hlg-cxx-api.cc:17:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 83%] Built target streaming-nemotron-cxx-api
+[ 83%] Building CXX object cxx-api-examples/CMakeFiles/speech-enhancement-gtcrn-cxx-api.dir/speech-enhancement-gtcrn-cxx-api.cc.o
+[ 83%] Building CXX object cxx-api-examples/CMakeFiles/source-separation-spleeter-cxx-api.dir/source-separation-spleeter-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/speech-enhancement-gtcrn-cxx-api.cc:16:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 83%] Built target streaming-zipformer-with-hr-cxx-api
+In file included from /path/to/sherpa-onnx/cxx-api-examples/source-separation-spleeter-cxx-api.cc:29:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 83%] Building CXX object cxx-api-examples/CMakeFiles/source-separation-uvr-cxx-api.dir/source-separation-uvr-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/source-separation-uvr-cxx-api.cc:27:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 84%] Linking CXX executable ../bin/zipformer-ctc-hlg-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[ 84%] Linking CXX executable ../bin/speech-enhancement-gtcrn-cxx-api
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 85%] Linking CXX executable ../bin/source-separation-spleeter-cxx-api
+[ 85%] Built target zipformer-ctc-hlg-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[ 85%] Linking CXX executable ../bin/source-separation-uvr-cxx-api
+[ 86%] Building CXX object cxx-api-examples/CMakeFiles/speech-enhancement-dpdfnet-cxx-api.dir/speech-enhancement-dpdfnet-cxx-api.cc.o
+[ 86%] Built target speech-enhancement-gtcrn-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+In file included from /path/to/sherpa-onnx/cxx-api-examples/speech-enhancement-dpdfnet-cxx-api.cc:22:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 87%] Built target source-separation-spleeter-cxx-api
+[ 87%] Building CXX object cxx-api-examples/CMakeFiles/online-speech-enhancement-gtcrn-cxx-api.dir/online-speech-enhancement-gtcrn-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/online-speech-enhancement-gtcrn-cxx-api.cc:16:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 87%] Building CXX object cxx-api-examples/CMakeFiles/online-speech-enhancement-dpdfnet-cxx-api.dir/online-speech-enhancement-dpdfnet-cxx-api.cc.o
+[ 87%] Built target source-separation-uvr-cxx-api
+In file included from /path/to/sherpa-onnx/cxx-api-examples/online-speech-enhancement-dpdfnet-cxx-api.cc:22:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 87%] Building CXX object cxx-api-examples/CMakeFiles/speech-enhancement-voxlock-cxx-api.dir/speech-enhancement-voxlock-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/speech-enhancement-voxlock-cxx-api.cc:27:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 87%] Linking CXX executable ../bin/speech-enhancement-dpdfnet-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[ 87%] Linking CXX executable ../bin/online-speech-enhancement-gtcrn-cxx-api
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 87%] Built target speech-enhancement-dpdfnet-cxx-api
+[ 87%] Linking CXX executable ../bin/online-speech-enhancement-dpdfnet-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 88%] Building CXX object cxx-api-examples/CMakeFiles/speech-enhancement-voxlock-with-voice-sample-cxx-api.dir/speech-enhancement-voxlock-with-voice-sample-cxx-api.cc.o
+1 warning generated.
+[ 88%] Linking CXX executable ../bin/speech-enhancement-voxlock-cxx-api
+In file included from /path/to/sherpa-onnx/cxx-api-examples/speech-enhancement-voxlock-with-voice-sample-cxx-api.cc:28:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 88%] Built target online-speech-enhancement-gtcrn-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 88%] Building CXX object cxx-api-examples/CMakeFiles/online-speech-enhancement-voxlock-cxx-api.dir/online-speech-enhancement-voxlock-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/online-speech-enhancement-voxlock-cxx-api.cc:28:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:1840:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 88%] Built target online-speech-enhancement-dpdfnet-cxx-api
+[ 88%] Built target speech-enhancement-voxlock-cxx-api
+[ 88%] Building CXX object cxx-api-examples/CMakeFiles/online-speech-enhancement-voxlock-with-voice-sample-cxx-api.dir/online-speech-enhancement-voxlock-with-voice-sample-cxx-api.cc.o
+[ 88%] Building CXX object cxx-api-examples/CMakeFiles/kws-cxx-api.dir/kws-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/online-speech-enhancement-voxlock-with-voice-sample-cxx-api.cc:29:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:1840:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+In file included from /path/to/sherpa-onnx/cxx-api-examples/kws-cxx-api.cc:17:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/array:117:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal.h:13:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h:12:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 88%] Linking CXX executable ../bin/speech-enhancement-voxlock-with-voice-sample-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[ 88%] Linking CXX executable ../bin/online-speech-enhancement-voxlock-cxx-api
+[ 88%] Built target speech-enhancement-voxlock-with-voice-sample-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 89%] Building CXX object cxx-api-examples/CMakeFiles/audio-tagging-ced-cxx-api.dir/audio-tagging-ced-cxx-api.cc.o
+1 warning generated.
+[ 89%] Linking CXX executable ../bin/online-speech-enhancement-voxlock-with-voice-sample-cxx-api
+1 warning generated.
+In file included from /path/to/sherpa-onnx/cxx-api-examples/audio-tagging-ced-cxx-api.cc:15:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 89%] Linking CXX executable ../bin/kws-cxx-api
+[ 89%] Built target online-speech-enhancement-voxlock-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 89%] Building CXX object cxx-api-examples/CMakeFiles/audio-tagging-zipformer-cxx-api.dir/audio-tagging-zipformer-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/audio-tagging-zipformer-cxx-api.cc:16:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 89%] Built target online-speech-enhancement-voxlock-with-voice-sample-cxx-api
+[ 89%] Built target kws-cxx-api
+[ 89%] Building CXX object cxx-api-examples/CMakeFiles/streaming-zipformer-rtf-cxx-api.dir/streaming-zipformer-rtf-cxx-api.cc.o
+[ 89%] Building CXX object cxx-api-examples/CMakeFiles/streaming-t-one-ctc-cxx-api.dir/streaming-t-one-ctc-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/streaming-zipformer-rtf-cxx-api.cc:34:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+In file included from /path/to/sherpa-onnx/cxx-api-examples/streaming-t-one-ctc-cxx-api.cc:16:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 89%] Linking CXX executable ../bin/audio-tagging-ced-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[ 89%] Linking CXX executable ../bin/audio-tagging-zipformer-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 89%] Built target audio-tagging-ced-cxx-api
+[ 89%] Building CXX object cxx-api-examples/CMakeFiles/whisper-cxx-api.dir/whisper-cxx-api.cc.o
+1 warning generated.
+[ 89%] Linking CXX executable ../bin/streaming-zipformer-rtf-cxx-api
+1 warning generated.
+In file included from /path/to/sherpa-onnx/cxx-api-examples/whisper-cxx-api.cc:15:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 89%] Linking CXX executable ../bin/streaming-t-one-ctc-cxx-api
+[ 89%] Built target audio-tagging-zipformer-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 89%] Building CXX object cxx-api-examples/CMakeFiles/fire-red-asr-cxx-api.dir/fire-red-asr-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/fire-red-asr-cxx-api.cc:15:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 89%] Built target streaming-zipformer-rtf-cxx-api
+[ 89%] Built target streaming-t-one-ctc-cxx-api
+[ 89%] Building CXX object cxx-api-examples/CMakeFiles/fire-red-asr-ctc-cxx-api.dir/fire-red-asr-ctc-cxx-api.cc.o
+[ 89%] Building CXX object cxx-api-examples/CMakeFiles/moonshine-cxx-api.dir/moonshine-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/fire-red-asr-ctc-cxx-api.cc:15:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+In file included from /path/to/sherpa-onnx/cxx-api-examples/moonshine-cxx-api.cc:15:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 90%] Linking CXX executable ../bin/whisper-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[ 90%] Linking CXX executable ../bin/fire-red-asr-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 90%] Built target whisper-cxx-api
+1 warning generated.
+[ 90%] Linking CXX executable ../bin/fire-red-asr-ctc-cxx-api
+[ 90%] Building CXX object cxx-api-examples/CMakeFiles/moonshine-v2-cxx-api.dir/moonshine-v2-cxx-api.cc.o
+[ 90%] Built target fire-red-asr-cxx-api
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lm'
+In file included from /path/to/sherpa-onnx/cxx-api-examples/moonshine-v2-cxx-api.cc:15:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 90%] Linking CXX executable ../bin/moonshine-cxx-api
+[ 90%] Building CXX object cxx-api-examples/CMakeFiles/sense-voice-cxx-api.dir/sense-voice-cxx-api.cc.o
+ld: warning: ignoring duplicate libraries: '-lm'
+In file included from /path/to/sherpa-onnx/cxx-api-examples/sense-voice-cxx-api.cc:15:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 90%] Built target fire-red-asr-ctc-cxx-api
+[ 90%] Building CXX object cxx-api-examples/CMakeFiles/wenet-ctc-cxx-api.dir/wenet-ctc-cxx-api.cc.o
+[ 90%] Built target moonshine-cxx-api
+In file included from /path/to/sherpa-onnx/cxx-api-examples/wenet-ctc-cxx-api.cc:15:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 90%] Building CXX object cxx-api-examples/CMakeFiles/omnilingual-asr-ctc-cxx-api.dir/omnilingual-asr-ctc-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/omnilingual-asr-ctc-cxx-api.cc:15:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 90%] Linking CXX executable ../bin/moonshine-v2-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[ 91%] Linking CXX executable ../bin/sense-voice-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 91%] Built target moonshine-v2-cxx-api
+1 warning generated.
+[ 91%] Linking CXX executable ../bin/wenet-ctc-cxx-api
+[ 91%] Building CXX object cxx-api-examples/CMakeFiles/medasr-ctc-cxx-api.dir/medasr-ctc-cxx-api.cc.o
+[ 91%] Built target sense-voice-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+In file included from /path/to/sherpa-onnx/cxx-api-examples/medasr-ctc-cxx-api.cc:15:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 92%] Linking CXX executable ../bin/omnilingual-asr-ctc-cxx-api
+[ 92%] Building CXX object cxx-api-examples/CMakeFiles/nemo-canary-cxx-api.dir/nemo-canary-cxx-api.cc.o
+ld: warning: ignoring duplicate libraries: '-lm'
+In file included from /path/to/sherpa-onnx/cxx-api-examples/nemo-canary-cxx-api.cc:20:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 92%] Built target wenet-ctc-cxx-api
+[ 93%] Building CXX object cxx-api-examples/CMakeFiles/nemo-giga-am-v2-cxx-api.dir/nemo-giga-am-v2-cxx-api.cc.o
+[ 93%] Built target omnilingual-asr-ctc-cxx-api
+In file included from /path/to/sherpa-onnx/cxx-api-examples/nemo-giga-am-v2-cxx-api.cc:17:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 93%] Building CXX object cxx-api-examples/CMakeFiles/nemo-ctc-cxx-api.dir/nemo-ctc-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/nemo-ctc-cxx-api.cc:15:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 94%] Linking CXX executable ../bin/medasr-ctc-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[ 95%] Linking CXX executable ../bin/nemo-canary-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 95%] Built target medasr-ctc-cxx-api
+1 warning generated.
+[ 95%] Linking CXX executable ../bin/nemo-giga-am-v2-cxx-api
+[ 96%] Building CXX object cxx-api-examples/CMakeFiles/paraformer-cxx-api.dir/paraformer-cxx-api.cc.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 96%] Built target nemo-canary-cxx-api
+1 warning generated.
+In file included from /path/to/sherpa-onnx/cxx-api-examples/paraformer-cxx-api.cc:17:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 96%] Linking CXX executable ../bin/nemo-ctc-cxx-api
+[ 96%] Building CXX object cxx-api-examples/CMakeFiles/streaming-paraformer-cxx-api.dir/streaming-paraformer-cxx-api.cc.o
+ld: warning: ignoring duplicate libraries: '-lm'
+In file included from /path/to/sherpa-onnx/cxx-api-examples/streaming-paraformer-cxx-api.cc:17:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 96%] Built target nemo-giga-am-v2-cxx-api
+[ 96%] Building CXX object cxx-api-examples/CMakeFiles/spoken-language-identification-cxx-api.dir/spoken-language-identification-cxx-api.cc.o
+[ 96%] Built target nemo-ctc-cxx-api
+In file included from /path/to/sherpa-onnx/cxx-api-examples/spoken-language-identification-cxx-api.cc:17:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio:101:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 96%] Building CXX object cxx-api-examples/CMakeFiles/speaker-identification-cxx-api.dir/speaker-identification-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/speaker-identification-cxx-api.cc:17:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio:101:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 96%] Linking CXX executable ../bin/paraformer-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[ 96%] Linking CXX executable ../bin/streaming-paraformer-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[ 96%] Linking CXX executable ../bin/spoken-language-identification-cxx-api
+[ 96%] Built target paraformer-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 96%] Building CXX object cxx-api-examples/CMakeFiles/offline-speaker-diarization-cxx-api.dir/offline-speaker-diarization-cxx-api.cc.o
+1 warning generated.
+[ 96%] Built target streaming-paraformer-cxx-api
+[ 96%] Linking CXX executable ../bin/speaker-identification-cxx-api
+In file included from /path/to/sherpa-onnx/cxx-api-examples/offline-speaker-diarization-cxx-api.cc:21:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio:101:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 96%] Building CXX object cxx-api-examples/CMakeFiles/cohere-transcribe-cxx-api.dir/cohere-transcribe-cxx-api.cc.o
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 96%] Built target spoken-language-identification-cxx-api
+In file included from /path/to/sherpa-onnx/cxx-api-examples/cohere-transcribe-cxx-api.cc:16:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 96%] Building CXX object cxx-api-examples/CMakeFiles/offline-diacritization-cxx-api.dir/offline-diacritization-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/offline-diacritization-cxx-api.cc:11:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream:39:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 96%] Built target speaker-identification-cxx-api
+[ 97%] Building CXX object cxx-api-examples/CMakeFiles/offline-punctuation-cxx-api.dir/offline-punctuation-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/offline-punctuation-cxx-api.cc:11:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream:39:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[ 98%] Linking CXX executable ../bin/offline-speaker-diarization-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[ 98%] Linking CXX executable ../bin/cohere-transcribe-cxx-api
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 98%] Linking CXX executable ../bin/offline-diacritization-cxx-api
+[ 98%] Built target offline-speaker-diarization-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 98%] Building CXX object cxx-api-examples/CMakeFiles/online-punctuation-cxx-api.dir/online-punctuation-cxx-api.cc.o
+1 warning generated.
+[ 98%] Linking CXX executable ../bin/offline-punctuation-cxx-api
+In file included from /path/to/sherpa-onnx/cxx-api-examples/online-punctuation-cxx-api.cc:11:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream:39:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[ 98%] Built target cohere-transcribe-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[ 98%] Building CXX object cxx-api-examples/CMakeFiles/sense-voice-with-hr-cxx-api.dir/sense-voice-with-hr-cxx-api.cc.o
+[ 98%] Built target offline-diacritization-cxx-api
+In file included from /path/to/sherpa-onnx/cxx-api-examples/sense-voice-with-hr-cxx-api.cc:23:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[100%] Building CXX object cxx-api-examples/CMakeFiles/dolphin-ctc-cxx-api.dir/dolphin-ctc-cxx-api.cc.o
+[100%] Built target offline-punctuation-cxx-api
+In file included from /path/to/sherpa-onnx/cxx-api-examples/dolphin-ctc-cxx-api.cc:16:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[100%] Building CXX object cxx-api-examples/CMakeFiles/vad-cxx-api.dir/vad-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/vad-cxx-api.cc:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio:101:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[100%] Linking CXX executable ../bin/online-punctuation-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[100%] Linking CXX executable ../bin/sense-voice-with-hr-cxx-api
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lm'
+[100%] Built target online-punctuation-cxx-api
+[100%] Linking CXX executable ../bin/dolphin-ctc-cxx-api
+[100%] Building CXX object cxx-api-examples/CMakeFiles/funasr-nano-cxx-api.dir/funasr-nano-cxx-api.cc.o
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[100%] Linking CXX executable ../bin/vad-cxx-api
+In file included from /path/to/sherpa-onnx/cxx-api-examples/funasr-nano-cxx-api.cc:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[100%] Built target sense-voice-with-hr-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[100%] Built target dolphin-ctc-cxx-api
+[100%] Building CXX object cxx-api-examples/CMakeFiles/qwen3-asr-cxx-api.dir/qwen3-asr-cxx-api.cc.o
+[100%] Building CXX object cxx-api-examples/CMakeFiles/forced-alignment-en-cxx-api.dir/forced-alignment-en-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/qwen3-asr-cxx-api.cc:25:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1092:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+In file included from /path/to/sherpa-onnx/cxx-api-examples/forced-alignment-en-cxx-api.cc:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint:146:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:[100%] Built target vad-cxx-api
+15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+[100%] Building CXX object cxx-api-examples/CMakeFiles/forced-alignment-zh-cxx-api.dir/forced-alignment-zh-cxx-api.cc.o
+In file included from /path/to/sherpa-onnx/cxx-api-examples/forced-alignment-zh-cxx-api.cc:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint:146:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:15:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:204:4: warning: "The selected platform is no longer supported by libc++." [-W#warnings]
+  204 | #  warning "The selected platform is no longer supported by libc++."
+      |    ^
+1 warning generated.
+[100%] Linking CXX executable ../bin/funasr-nano-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[100%] Linking CXX executable ../bin/qwen3-asr-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+1 warning generated.
+[100%] Built target funasr-nano-cxx-api
+[100%] Linking CXX executable ../bin/forced-alignment-en-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[100%] Built target qwen3-asr-cxx-api
+1 warning generated.
+[100%] Linking CXX executable ../bin/forced-alignment-zh-cxx-api
+ld: warning: ignoring duplicate libraries: '-lm'
+[100%] Built target forced-alignment-en-cxx-api
+[100%] Built target forced-alignment-zh-cxx-api

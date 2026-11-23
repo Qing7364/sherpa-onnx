@@ -1,0 +1,21 @@
+{
+  "source": "Original infer_qwen3_asr._infer_one, shared all FP32 frontend",
+  "sample_id": "BAC009S0768W0193",
+  "wav_sha256": "5fcd8e460364ba486a0309d838577992232884fe0624f738f4768c86c3a2ca5a",
+  "seq": 77,
+  "past_len": 0,
+  "continuation": "Actual baseline greedy next-token inputs",
+  "next_tokens": [
+    11528,
+    8453,
+    151704,
+    101887,
+    99564,
+    100665,
+    108592,
+    106071,
+    1773
+  ],
+  "sha256": "fb75f5cfd3c4064de8a787ea13d9103f4cd1ef7c70ca1251ad30a505b1fa7017",
+  "note": "infer_qwen3_asr's printed RTF excludes prefill and is not a performance measurement here"
+}

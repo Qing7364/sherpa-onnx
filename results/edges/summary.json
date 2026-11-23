@@ -1,0 +1,1043 @@
+[
+  {
+    "comparison": "A-compatibility",
+    "id": "silence",
+    "options": {},
+    "duration_seconds": 2.0,
+    "baseline": {
+      "text": "",
+      "tokens": [],
+      "returned_token_count": 0,
+      "generated_token_count": 3,
+      "elapsed_seconds": 0.186,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "",
+      "tokens": [],
+      "returned_token_count": 0,
+      "generated_token_count": 3,
+      "elapsed_seconds": 0.176,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "A-compatibility",
+    "id": "noise",
+    "options": {},
+    "duration_seconds": 2.0,
+    "baseline": {
+      "text": "",
+      "tokens": [],
+      "returned_token_count": 0,
+      "generated_token_count": 3,
+      "elapsed_seconds": 0.178,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "",
+      "tokens": [],
+      "returned_token_count": 0,
+      "generated_token_count": 3,
+      "elapsed_seconds": 0.179,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "A-compatibility",
+    "id": "short",
+    "options": {},
+    "duration_seconds": 0.25,
+    "baseline": {
+      "text": "",
+      "tokens": [],
+      "returned_token_count": 0,
+      "generated_token_count": 3,
+      "elapsed_seconds": 0.128,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "",
+      "tokens": [],
+      "returned_token_count": 0,
+      "generated_token_count": 3,
+      "elapsed_seconds": 0.114,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "A-compatibility",
+    "id": "near-capacity",
+    "options": {},
+    "duration_seconds": 37.5,
+    "baseline": {
+      "text": "往往在采购过程中尽量压",
+      "tokens": [
+        "往往",
+        "在",
+        "采购",
+        "过程中",
+        "尽量",
+        "压"
+      ],
+      "returned_token_count": 6,
+      "generated_token_count": 10,
+      "elapsed_seconds": 1.609,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "往往在采购过程中尽量压",
+      "tokens": [
+        "往往",
+        "在",
+        "采购",
+        "过程中",
+        "尽量",
+        "压"
+      ],
+      "returned_token_count": 6,
+      "generated_token_count": 10,
+      "elapsed_seconds": 1.641,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "A-compatibility",
+    "id": "zh-hotwords",
+    "options": {
+      "hotwords": "人工智能,语音识别"
+    },
+    "duration_seconds": 5.746125,
+    "baseline": {
+      "text": "往往在采购过程中尽量压低报价。",
+      "tokens": [
+        "往往",
+        "在",
+        "采购",
+        "过程中",
+        "尽量",
+        "压",
+        "低",
+        "报价",
+        "。"
+      ],
+      "returned_token_count": 9,
+      "generated_token_count": 12,
+      "elapsed_seconds": 0.378,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "往往在采购过程中尽量压低报价。",
+      "tokens": [
+        "往往",
+        "在",
+        "采购",
+        "过程中",
+        "尽量",
+        "压",
+        "低",
+        "报价",
+        "。"
+      ],
+      "returned_token_count": 9,
+      "generated_token_count": 12,
+      "elapsed_seconds": 0.374,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "A-compatibility",
+    "id": "zh-language",
+    "options": {
+      "language_hint": "Chinese"
+    },
+    "duration_seconds": 5.746125,
+    "baseline": {
+      "text": "往往在采购过程中，尽量压低报价。",
+      "tokens": [
+        "往往",
+        "在",
+        "采购",
+        "过程中",
+        "，",
+        "尽量",
+        "压",
+        "低",
+        "报价",
+        "。"
+      ],
+      "returned_token_count": 10,
+      "generated_token_count": 10,
+      "elapsed_seconds": 0.359,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "往往在采购过程中，尽量压低报价。",
+      "tokens": [
+        "往往",
+        "在",
+        "采购",
+        "过程中",
+        "，",
+        "尽量",
+        "压",
+        "低",
+        "报价",
+        "。"
+      ],
+      "returned_token_count": 10,
+      "generated_token_count": 10,
+      "elapsed_seconds": 0.426,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "A-compatibility",
+    "id": "en-language",
+    "options": {
+      "language_hint": "English"
+    },
+    "duration_seconds": 4.01,
+    "baseline": {
+      "text": "The rector did not ask for a catechism to hear the lesson from.",
+      "tokens": [
+        "The",
+        " re",
+        "ctor",
+        " did",
+        " not",
+        " ask",
+        " for",
+        " a",
+        " cate",
+        "ch",
+        "ism",
+        " to",
+        " hear",
+        " the",
+        " lesson",
+        " from",
+        "."
+      ],
+      "returned_token_count": 17,
+      "generated_token_count": 17,
+      "elapsed_seconds": 0.421,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "The rector did not ask for a catechism to hear the lesson from.",
+      "tokens": [
+        "The",
+        " re",
+        "ctor",
+        " did",
+        " not",
+        " ask",
+        " for",
+        " a",
+        " cate",
+        "ch",
+        "ism",
+        " to",
+        " hear",
+        " the",
+        " lesson",
+        " from",
+        "."
+      ],
+      "returned_token_count": 17,
+      "generated_token_count": 17,
+      "elapsed_seconds": 0.431,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "A-compatibility",
+    "id": "silence-prompts",
+    "options": {
+      "hotwords": "人工智能,语音识别",
+      "language_hint": "Chinese"
+    },
+    "duration_seconds": 2.0,
+    "baseline": {
+      "text": "嗯，嗯。",
+      "tokens": [
+        "嗯",
+        "，",
+        "嗯",
+        "。"
+      ],
+      "returned_token_count": 4,
+      "generated_token_count": 4,
+      "elapsed_seconds": 0.193,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "嗯，嗯。",
+      "tokens": [
+        "嗯",
+        "，",
+        "嗯",
+        "。"
+      ],
+      "returned_token_count": 4,
+      "generated_token_count": 4,
+      "elapsed_seconds": 0.184,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "B-fp32",
+    "id": "silence",
+    "options": {},
+    "duration_seconds": 2.0,
+    "baseline": {
+      "text": "",
+      "tokens": [],
+      "returned_token_count": 0,
+      "generated_token_count": 3,
+      "elapsed_seconds": 0.587,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "",
+      "tokens": [],
+      "returned_token_count": 0,
+      "generated_token_count": 3,
+      "elapsed_seconds": 0.54,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "B-fp32",
+    "id": "noise",
+    "options": {},
+    "duration_seconds": 2.0,
+    "baseline": {
+      "text": "",
+      "tokens": [],
+      "returned_token_count": 0,
+      "generated_token_count": 3,
+      "elapsed_seconds": 0.576,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "",
+      "tokens": [],
+      "returned_token_count": 0,
+      "generated_token_count": 3,
+      "elapsed_seconds": 0.552,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "B-fp32",
+    "id": "short",
+    "options": {},
+    "duration_seconds": 0.25,
+    "baseline": {
+      "text": "",
+      "tokens": [],
+      "returned_token_count": 0,
+      "generated_token_count": 3,
+      "elapsed_seconds": 0.579,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "",
+      "tokens": [],
+      "returned_token_count": 0,
+      "generated_token_count": 3,
+      "elapsed_seconds": 0.549,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "B-fp32",
+    "id": "near-capacity",
+    "options": {},
+    "duration_seconds": 37.5,
+    "baseline": {
+      "text": "往往在采购过程中，尽量压",
+      "tokens": [
+        "往往",
+        "在",
+        "采购",
+        "过程中",
+        "，",
+        "尽量",
+        "压"
+      ],
+      "returned_token_count": 7,
+      "generated_token_count": 10,
+      "elapsed_seconds": 3.626,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "往往在采购过程中，尽量压",
+      "tokens": [
+        "往往",
+        "在",
+        "采购",
+        "过程中",
+        "，",
+        "尽量",
+        "压"
+      ],
+      "returned_token_count": 7,
+      "generated_token_count": 10,
+      "elapsed_seconds": 3.236,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "B-fp32",
+    "id": "zh-hotwords",
+    "options": {
+      "hotwords": "人工智能,语音识别"
+    },
+    "duration_seconds": 5.746125,
+    "baseline": {
+      "text": "往往在采购过程中，尽量压低报价。",
+      "tokens": [
+        "往往",
+        "在",
+        "采购",
+        "过程中",
+        "，",
+        "尽量",
+        "压",
+        "低",
+        "报价",
+        "。"
+      ],
+      "returned_token_count": 10,
+      "generated_token_count": 13,
+      "elapsed_seconds": 1.407,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "往往在采购过程中，尽量压低报价。",
+      "tokens": [
+        "往往",
+        "在",
+        "采购",
+        "过程中",
+        "，",
+        "尽量",
+        "压",
+        "低",
+        "报价",
+        "。"
+      ],
+      "returned_token_count": 10,
+      "generated_token_count": 13,
+      "elapsed_seconds": 1.142,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "B-fp32",
+    "id": "zh-language",
+    "options": {
+      "language_hint": "Chinese"
+    },
+    "duration_seconds": 5.746125,
+    "baseline": {
+      "text": "往往在采购过程中，尽量压低报价。",
+      "tokens": [
+        "往往",
+        "在",
+        "采购",
+        "过程中",
+        "，",
+        "尽量",
+        "压",
+        "低",
+        "报价",
+        "。"
+      ],
+      "returned_token_count": 10,
+      "generated_token_count": 10,
+      "elapsed_seconds": 1.099,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "往往在采购过程中，尽量压低报价。",
+      "tokens": [
+        "往往",
+        "在",
+        "采购",
+        "过程中",
+        "，",
+        "尽量",
+        "压",
+        "低",
+        "报价",
+        "。"
+      ],
+      "returned_token_count": 10,
+      "generated_token_count": 10,
+      "elapsed_seconds": 0.978,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "B-fp32",
+    "id": "en-language",
+    "options": {
+      "language_hint": "English"
+    },
+    "duration_seconds": 4.01,
+    "baseline": {
+      "text": "The rector did not ask for a catechism to hear the lesson from.",
+      "tokens": [
+        "The",
+        " re",
+        "ctor",
+        " did",
+        " not",
+        " ask",
+        " for",
+        " a",
+        " cate",
+        "ch",
+        "ism",
+        " to",
+        " hear",
+        " the",
+        " lesson",
+        " from",
+        "."
+      ],
+      "returned_token_count": 17,
+      "generated_token_count": 17,
+      "elapsed_seconds": 1.294,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "The rector did not ask for a catechism to hear the lesson from.",
+      "tokens": [
+        "The",
+        " re",
+        "ctor",
+        " did",
+        " not",
+        " ask",
+        " for",
+        " a",
+        " cate",
+        "ch",
+        "ism",
+        " to",
+        " hear",
+        " the",
+        " lesson",
+        " from",
+        "."
+      ],
+      "returned_token_count": 17,
+      "generated_token_count": 17,
+      "elapsed_seconds": 0.982,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "B-fp32",
+    "id": "silence-prompts",
+    "options": {
+      "hotwords": "人工智能,语音识别",
+      "language_hint": "Chinese"
+    },
+    "duration_seconds": 2.0,
+    "baseline": {
+      "text": "人工智能 语音识别。",
+      "tokens": [
+        "人工智能",
+        " ",
+        "语音",
+        "识别",
+        "。"
+      ],
+      "returned_token_count": 5,
+      "generated_token_count": 5,
+      "elapsed_seconds": 0.545,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "人工智能 语音识别。",
+      "tokens": [
+        "人工智能",
+        " ",
+        "语音",
+        "识别",
+        "。"
+      ],
+      "returned_token_count": 5,
+      "generated_token_count": 5,
+      "elapsed_seconds": 0.72,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "C-int8",
+    "id": "silence",
+    "options": {},
+    "duration_seconds": 2.0,
+    "baseline": {
+      "text": "",
+      "tokens": [],
+      "returned_token_count": 0,
+      "generated_token_count": 4,
+      "elapsed_seconds": 0.211,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "",
+      "tokens": [],
+      "returned_token_count": 0,
+      "generated_token_count": 4,
+      "elapsed_seconds": 0.197,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "C-int8",
+    "id": "noise",
+    "options": {},
+    "duration_seconds": 2.0,
+    "baseline": {
+      "text": "",
+      "tokens": [],
+      "returned_token_count": 0,
+      "generated_token_count": 3,
+      "elapsed_seconds": 0.165,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "",
+      "tokens": [],
+      "returned_token_count": 0,
+      "generated_token_count": 3,
+      "elapsed_seconds": 0.158,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "C-int8",
+    "id": "short",
+    "options": {},
+    "duration_seconds": 0.25,
+    "baseline": {
+      "text": "",
+      "tokens": [],
+      "returned_token_count": 0,
+      "generated_token_count": 3,
+      "elapsed_seconds": 0.113,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "",
+      "tokens": [],
+      "returned_token_count": 0,
+      "generated_token_count": 3,
+      "elapsed_seconds": 0.131,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "C-int8",
+    "id": "near-capacity",
+    "options": {},
+    "duration_seconds": 37.5,
+    "baseline": {
+      "text": "往往在采购过程中尽量压低",
+      "tokens": [
+        "往往",
+        "在",
+        "采购",
+        "过程中",
+        "尽量",
+        "压",
+        "低"
+      ],
+      "returned_token_count": 7,
+      "generated_token_count": 10,
+      "elapsed_seconds": 1.731,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "往往在采购过程中尽量压低",
+      "tokens": [
+        "往往",
+        "在",
+        "采购",
+        "过程中",
+        "尽量",
+        "压",
+        "低"
+      ],
+      "returned_token_count": 7,
+      "generated_token_count": 10,
+      "elapsed_seconds": 1.682,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "C-int8",
+    "id": "zh-hotwords",
+    "options": {
+      "hotwords": "人工智能,语音识别"
+    },
+    "duration_seconds": 5.746125,
+    "baseline": {
+      "text": "往往在采购过程中，尽量压低报价。",
+      "tokens": [
+        "往往",
+        "在",
+        "采购",
+        "过程中",
+        "，",
+        "尽量",
+        "压",
+        "低",
+        "报价",
+        "。"
+      ],
+      "returned_token_count": 10,
+      "generated_token_count": 13,
+      "elapsed_seconds": 0.394,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "往往在采购过程中，尽量压低报价。",
+      "tokens": [
+        "往往",
+        "在",
+        "采购",
+        "过程中",
+        "，",
+        "尽量",
+        "压",
+        "低",
+        "报价",
+        "。"
+      ],
+      "returned_token_count": 10,
+      "generated_token_count": 13,
+      "elapsed_seconds": 0.364,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "C-int8",
+    "id": "zh-language",
+    "options": {
+      "language_hint": "Chinese"
+    },
+    "duration_seconds": 5.746125,
+    "baseline": {
+      "text": "往往在采购过程中，尽量压低报价。",
+      "tokens": [
+        "往往",
+        "在",
+        "采购",
+        "过程中",
+        "，",
+        "尽量",
+        "压",
+        "低",
+        "报价",
+        "。"
+      ],
+      "returned_token_count": 10,
+      "generated_token_count": 10,
+      "elapsed_seconds": 0.349,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "往往在采购过程中，尽量压低报价。",
+      "tokens": [
+        "往往",
+        "在",
+        "采购",
+        "过程中",
+        "，",
+        "尽量",
+        "压",
+        "低",
+        "报价",
+        "。"
+      ],
+      "returned_token_count": 10,
+      "generated_token_count": 10,
+      "elapsed_seconds": 0.33,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "C-int8",
+    "id": "en-language",
+    "options": {
+      "language_hint": "English"
+    },
+    "duration_seconds": 4.01,
+    "baseline": {
+      "text": "The rector did not ask for a catechism to hear the lesson from.",
+      "tokens": [
+        "The",
+        " re",
+        "ctor",
+        " did",
+        " not",
+        " ask",
+        " for",
+        " a",
+        " cate",
+        "ch",
+        "ism",
+        " to",
+        " hear",
+        " the",
+        " lesson",
+        " from",
+        "."
+      ],
+      "returned_token_count": 17,
+      "generated_token_count": 17,
+      "elapsed_seconds": 0.395,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "The rector did not ask for a catechism to hear the lesson from.",
+      "tokens": [
+        "The",
+        " re",
+        "ctor",
+        " did",
+        " not",
+        " ask",
+        " for",
+        " a",
+        " cate",
+        "ch",
+        "ism",
+        " to",
+        " hear",
+        " the",
+        " lesson",
+        " from",
+        "."
+      ],
+      "returned_token_count": 17,
+      "generated_token_count": 17,
+      "elapsed_seconds": 0.369,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  },
+  {
+    "comparison": "C-int8",
+    "id": "silence-prompts",
+    "options": {
+      "hotwords": "人工智能,语音识别",
+      "language_hint": "Chinese"
+    },
+    "duration_seconds": 2.0,
+    "baseline": {
+      "text": "人工智能 语音识别。",
+      "tokens": [
+        "人工智能",
+        " ",
+        "语音",
+        "识别",
+        "。"
+      ],
+      "returned_token_count": 5,
+      "generated_token_count": 5,
+      "elapsed_seconds": 0.193,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "candidate": {
+      "text": "人工智能 语音识别。",
+      "tokens": [
+        "人工智能",
+        " ",
+        "语音",
+        "识别",
+        "。"
+      ],
+      "returned_token_count": 5,
+      "generated_token_count": 5,
+      "elapsed_seconds": 0.181,
+      "truncated": false,
+      "potential_repetition": false,
+      "first_token_eos": false,
+      "capacity_warning": false
+    },
+    "identical": true
+  }
+]

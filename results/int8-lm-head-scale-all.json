@@ -1,0 +1,30 @@
+{
+  "mode": "all",
+  "activation_quantizer": "/norm/Mul_1_output_0_QuantizeLinear",
+  "quantizer_input": [
+    "/norm/Mul_1_output_0"
+  ],
+  "cases": [
+    {
+      "case": "real-zh",
+      "scale": 0.8113905191421509,
+      "zero_point": 106
+    },
+    {
+      "case": "real-en",
+      "scale": 0.6829286813735962,
+      "zero_point": 109
+    },
+    {
+      "case": "synthetic-s448-past000",
+      "scale": 0.9237268567085266,
+      "zero_point": 106
+    },
+    {
+      "case": "synthetic-s511-past000",
+      "scale": 0.8826372623443604,
+      "zero_point": 119
+    }
+  ],
+  "note": "Diagnostic output-only graph copy in memory; original weights/settings/files unchanged"
+}

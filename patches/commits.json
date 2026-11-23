@@ -1,0 +1,16 @@
+[
+  {
+    "repository": "exporter",
+    "path": "/path/to/Qwen3-ASR-onnx",
+    "base": "0829a577ee741e408e65763dfe01ff4fe75408e9",
+    "commit": "58f40e56b13c5b09ceb55a855ab8f4b09b575c41",
+    "patch": "exporter.patch"
+  },
+  {
+    "repository": "sherpa-onnx",
+    "path": "/path/to/sherpa-onnx",
+    "base": "8a667ab114e8a007f671678ddb031729dd81dce4",
+    "commit": "1d4a7b76ef4b498def5f66a3682983c10b70d0f6",
+    "patch": "sherpa-onnx.patch"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "policy": "Decode CLI stdout with UTF-8 surrogateescape; retain raw stdout bytes. Count each undecodable byte as one nonmatching character/token according to the existing normalization. JSON records escape surrogates. Flag new invalid UTF-8 results independently.",
+  "scope": "Same rule for every mode, runtime and language; no invalid bytes discarded. Existing valid UTF-8 records are unchanged.",
+  "observed_existing_case": "AISHELL BAC009S0913W0228: official model old/new runtime raw outputs byte-identical, text byte 0x8d.",
+  "regression_test": "test_invalid_utf8_is_preserved_and_counted_as_an_error; initial strict decoding failed, corrected parser passes."
+}

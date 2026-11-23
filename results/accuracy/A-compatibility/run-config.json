@@ -1,0 +1,23 @@
+{
+  "binary": "/path/to/sherpa-onnx/build-prefill/bin/sherpa-onnx-offline",
+  "manifest": "/path/to/qwen3-asr-prefill-artifacts/eval-manifest.jsonl",
+  "baseline_dir": "/path/to/qwen3-asr-prefill-artifacts/models/sherpa-onnx-qwen3-asr-0.6B-int8-2026-03-25",
+  "candidate_dir": "/path/to/qwen3-asr-prefill-artifacts/models/sherpa-onnx-qwen3-asr-0.6B-int8-2026-03-25",
+  "output": "/path/to/qwen3-asr-prefill-artifacts/results/accuracy/A-compatibility",
+  "baseline_binary": "/path/to/qwen3-asr-prefill-artifacts/baseline-runtime/bin/sherpa-onnx-offline",
+  "tokenizer": null,
+  "decoder_name": "decoder.int8.onnx",
+  "encoder_name": "encoder.int8.onnx",
+  "threads": 4,
+  "require_identical": true,
+  "manifest_sha256": "72a59f1fc73c0b64f952923720562cb2e5a7ff370aecc9a3fc3ea5d4c606169d",
+  "binary_sha256": "a4860517aaba15eba5a75a691e335aa152b84512069f9a0e14988cc8de390633",
+  "baseline_binary_sha256": "7b41b5ca442f71b523f55d99128111f5f3fdc844d23d3ccbf573b0c1c69f510d",
+  "model_sha256": {
+    "/path/to/qwen3-asr-prefill-artifacts/models/sherpa-onnx-qwen3-asr-0.6B-int8-2026-03-25/conv_frontend.onnx": "d22dc4423e0940e49884e903d2ea2f7e5567c14fc1aed97e4e26d6b8f208ef9e",
+    "/path/to/qwen3-asr-prefill-artifacts/models/sherpa-onnx-qwen3-asr-0.6B-int8-2026-03-25/decoder.int8.onnx": "4f6885be5959ae26af3089d38ee7972c5fafbeeb1cf8d5e76eab6d8b61ca5771",
+    "/path/to/qwen3-asr-prefill-artifacts/models/sherpa-onnx-qwen3-asr-0.6B-int8-2026-03-25/encoder.int8.onnx": "60748d3e6744a57c9c91e1b17424a6c2990567e8adceb0783940c03ed98fa9d9"
+  },
+  "normalization": "NFKC, casefold, remove Unicode P; zh remove whitespace, en split whitespace",
+  "timing": "CLI first recognition: after recognizer creation, includes file read/AcceptWaveform/decode"
+}

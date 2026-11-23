@@ -1,0 +1,46 @@
+{
+  "power_before": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=47841379)\t99%; finishing charge; 0:08 remaining present: true\n",
+  "power_after": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=47841379)\t100%; finishing charge; 0:07 remaining present: true\n",
+  "comparisons": [
+    {
+      "sample_id": "BAC009S0768W0193",
+      "dtype": "fp32",
+      "length_group": "medium",
+      "medians": {
+        "all": 0.636,
+        "last": 0.557
+      },
+      "round_changes_percent": [
+        -3.217158176943702,
+        -12.721417069243145,
+        26.15629984051038,
+        -13.910355486862436,
+        -13.050314465408796
+      ],
+      "median_change_percent": -12.421383647798734,
+      "slowdown_rounds_over_3_percent": 1,
+      "text_and_counts_identical": true,
+      "repeatable_regression_over_3_percent": false
+    },
+    {
+      "sample_id": "BAC009S0903W0424",
+      "dtype": "fp32",
+      "length_group": "short",
+      "medians": {
+        "all": 0.459,
+        "last": 0.421
+      },
+      "round_changes_percent": [
+        -10.042735042735051,
+        -28.644067796610173,
+        -5.664488017429203,
+        -10.043668122270756,
+        47.79735682819384
+      ],
+      "median_change_percent": -8.278867102396525,
+      "slowdown_rounds_over_3_percent": 1,
+      "text_and_counts_identical": true,
+      "repeatable_regression_over_3_percent": false
+    }
+  ]
+}

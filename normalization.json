@@ -1,0 +1,7 @@
+{
+  "common": "Unicode NFKC followed by casefold; preserve original reference and hypothesis separately",
+  "zh": "Remove Unicode category P punctuation and all whitespace, then score Unicode code points as CER",
+  "en": "Remove Unicode category P punctuation, split on whitespace, then score words as WER",
+  "excluded": ["number-word equivalence", "traditional/simplified conversion", "hypothesis-specific normalization"],
+  "edge_cases": "Silence, noise, short clips, hotwords and language hints are reported separately from normal-speech denominators"
+}

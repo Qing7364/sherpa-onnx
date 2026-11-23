@@ -1,0 +1,22 @@
+{
+  "artifact_tool_tests_passed": 14,
+  "performance_summary_recomputed_exactly": true,
+  "performance_summary_sha256": "224e034e8ecd40969191b3a229f570b5b435f7759990d51e55b3690987ac31c3",
+  "local_document_links_checked": 24,
+  "models_audio_and_binaries_included": false,
+  "local_paths_replaced": true,
+  "source_revisions": [
+    {
+      "repository": "exporter",
+      "base": "0829a577ee741e408e65763dfe01ff4fe75408e9",
+      "commit": "58f40e56b13c5b09ceb55a855ab8f4b09b575c41",
+      "patch": "exporter.patch"
+    },
+    {
+      "repository": "sherpa-onnx",
+      "base": "8a667ab114e8a007f671678ddb031729dd81dce4",
+      "commit": "1d4a7b76ef4b498def5f66a3682983c10b70d0f6",
+      "patch": "sherpa-onnx.patch"
+    }
+  ]
+}

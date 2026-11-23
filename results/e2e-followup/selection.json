@@ -1,0 +1,103 @@
+{
+  "rule": "Every e2e sample with any original paired slowdown >3%; five additional alternating pairs",
+  "samples": [
+    {
+      "measurement": "e2e",
+      "dtype": "fp32",
+      "language": "zh",
+      "length_group": "medium",
+      "sample_id": "BAC009S0768W0193",
+      "duration_seconds": 4.7370625,
+      "metric": "elapsed_seconds",
+      "raw": {
+        "all": [
+          0.848,
+          0.693,
+          0.636
+        ],
+        "last": [
+          0.536,
+          0.723,
+          0.558
+        ]
+      },
+      "medians": {
+        "all": 0.693,
+        "last": 0.558
+      },
+      "change_percent": -19.480519480519465,
+      "round_changes_percent": [
+        -36.79245283018867,
+        4.329004329004338,
+        -12.264150943396224
+      ],
+      "repeatable_regression_over_3_percent": false,
+      "text_and_token_counts_identical": true,
+      "generated_token_counts": {
+        "all": [
+          9,
+          9,
+          9
+        ],
+        "last": [
+          9,
+          9,
+          9
+        ]
+      },
+      "truncated": {
+        "all": false,
+        "last": false
+      }
+    },
+    {
+      "measurement": "e2e",
+      "dtype": "fp32",
+      "language": "zh",
+      "length_group": "short",
+      "sample_id": "BAC009S0903W0424",
+      "duration_seconds": 2.5,
+      "metric": "elapsed_seconds",
+      "raw": {
+        "all": [
+          0.578,
+          0.674,
+          0.44
+        ],
+        "last": [
+          0.444,
+          1.123,
+          0.433
+        ]
+      },
+      "medians": {
+        "all": 0.578,
+        "last": 0.444
+      },
+      "change_percent": -23.183391003460198,
+      "round_changes_percent": [
+        -23.183391003460198,
+        66.61721068249258,
+        -1.5909090909090873
+      ],
+      "repeatable_regression_over_3_percent": false,
+      "text_and_token_counts_identical": true,
+      "generated_token_counts": {
+        "all": [
+          7,
+          7,
+          7
+        ],
+        "last": [
+          7,
+          7,
+          7
+        ]
+      },
+      "truncated": {
+        "all": false,
+        "last": false
+      }
+    }
+  ]
+}

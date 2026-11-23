@@ -1,0 +1,15 @@
+[
+  "/path/to/sherpa-onnx/build-prefill/bin/sherpa-onnx-offline",
+  "--qwen3-asr-conv-frontend=/path/to/qwen3-asr-prefill-artifacts/models/sherpa-onnx-qwen3-asr-0.6B-int8-2026-03-25/conv_frontend.onnx",
+  "--qwen3-asr-encoder=/path/to/qwen3-asr-prefill-artifacts/models/sherpa-onnx-qwen3-asr-0.6B-int8-2026-03-25/encoder.int8.onnx",
+  "--qwen3-asr-decoder=/path/to/qwen3-asr-prefill-artifacts/models/sherpa-onnx-qwen3-asr-0.6B-int8-2026-03-25/decoder.int8.onnx",
+  "--qwen3-asr-tokenizer=/path/to/qwen3-asr-prefill-artifacts/models/sherpa-onnx-qwen3-asr-0.6B-int8-2026-03-25/tokenizer",
+  "--qwen3-asr-max-total-len=512",
+  "--qwen3-asr-max-new-tokens=128",
+  "--qwen3-asr-temperature=1e-6",
+  "--qwen3-asr-top-p=0.8",
+  "--qwen3-asr-seed=42",
+  "--num-threads=4",
+  "--provider=cpu",
+  "/path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0914W0260.wav"
+]

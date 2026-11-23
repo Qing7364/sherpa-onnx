@@ -1,0 +1,8 @@
+{
+  "source": "Legal continuation from actual all-model S=64 prefix KV deltas",
+  "seq": 8,
+  "past_len": 64,
+  "seed": 42,
+  "continuation": "Force the same known synthetic token IDs 100..115",
+  "sha256": "184121776a18e87dc858c6187da3d1f9f3181c957e7afde9e595e4dcefcc6807"
+}

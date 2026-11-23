@@ -1,0 +1,30 @@
+{
+  "mode": "last",
+  "activation_quantizer": "/Slice_392_output_0_QuantizeLinear",
+  "quantizer_input": [
+    "/Slice_392_output_0"
+  ],
+  "cases": [
+    {
+      "case": "real-zh",
+      "scale": 0.2307927906513214,
+      "zero_point": 170
+    },
+    {
+      "case": "real-en",
+      "scale": 0.2657930254936218,
+      "zero_point": 164
+    },
+    {
+      "case": "synthetic-s448-past000",
+      "scale": 0.5775663256645203,
+      "zero_point": 135
+    },
+    {
+      "case": "synthetic-s511-past000",
+      "scale": 0.5676740407943726,
+      "zero_point": 160
+    }
+  ],
+  "note": "Diagnostic output-only graph copy in memory; original weights/settings/files unchanged"
+}

@@ -1,0 +1,9 @@
+{
+  "dtype": "fp32",
+  "binary": "/path/to/sherpa-onnx/build-prefill/bin/sherpa-onnx-offline",
+  "binary_sha256": "a4860517aaba15eba5a75a691e335aa152b84512069f9a0e14988cc8de390633",
+  "manifest_sha256": "72a59f1fc73c0b64f952923720562cb2e5a7ff370aecc9a3fc3ea5d4c606169d",
+  "batch_size": 10,
+  "model_manifest_sha256": "eee09c2fd9997183a1e67ee8e30cf6ed602115ff06000af4e06e5ff1e4720c8c",
+  "semantics": "Existing C++ DecodeStreams loops Decode separately; fresh per-stream KV. Quality only, no per-sample timing claim."
+}

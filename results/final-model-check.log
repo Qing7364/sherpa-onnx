@@ -1,0 +1,4 @@
+all fp32 checker/layout/projection passed
+all int8 checker/layout/projection passed
+last fp32 checker/layout/projection passed
+last int8 checker/layout/projection passed

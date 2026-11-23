@@ -1,0 +1,32 @@
+/path/to/sherpa-onnx/sherpa-onnx/csrc/parse-options.cc:Read:379 /path/to/sherpa-onnx/build-prefill/bin/sherpa-onnx-offline --qwen3-asr-conv-frontend=/path/to/qwen3-asr-prefill-artifacts/exports/all/conv_frontend.onnx --qwen3-asr-encoder=/path/to/qwen3-asr-prefill-artifacts/exports/all/encoder.onnx --qwen3-asr-decoder=/path/to/qwen3-asr-prefill-artifacts/exports/last/decoder.onnx --qwen3-asr-tokenizer=/path/to/qwen3-asr-prefill-artifacts/checkpoint/5eb144179a02acc5e5ba31e748d22b0cf3e303b0 --qwen3-asr-max-total-len=512 --qwen3-asr-max-new-tokens=128 --qwen3-asr-temperature=1e-6 --qwen3-asr-top-p=0.8 --qwen3-asr-seed=42 --num-threads=4 --provider=cpu /path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0915W0153.wav /path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0915W0354.wav /path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0915W0419.wav /path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0912W0242.wav /path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0912W0442.wav /path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0912W0169.wav /path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0912W0345.wav /path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0901W0225.wav /path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0901W0145.wav /path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0901W0144.wav 
+
+OfflineRecognizerConfig(feat_config=FeatureExtractorConfig(sampling_rate=16000, feature_dim=80, low_freq=20, high_freq=-400, dither=0, normalize_samples=True, snip_edges=False), model_config=OfflineModelConfig(transducer=OfflineTransducerModelConfig(encoder_filename="", decoder_filename="", joiner_filename=""), paraformer=OfflineParaformerModelConfig(model=""), nemo_ctc=OfflineNemoEncDecCtcModelConfig(model=""), whisper=OfflineWhisperModelConfig(encoder="", decoder="", language="", task="transcribe", tail_paddings=-1, enable_token_timestamps=False, enable_segment_timestamps=False, ), fire_red_asr=OfflineFireRedAsrModelConfig(encoder="", decoder=""), tdnn=OfflineTdnnModelConfig(model=""), zipformer_ctc=OfflineZipformerCtcModelConfig(model=""), wenet_ctc=OfflineWenetCtcModelConfig(model=""), sense_voice=OfflineSenseVoiceModelConfig(model="", language="auto", use_itn=False), moonshine=OfflineMoonshineModelConfig(preprocessor="", encoder="", uncached_decoder="", cached_decoder="", merged_decoder="", decoder="", ), dolphin=OfflineDolphinModelConfig(model=""), canary=OfflineCanaryModelConfig(encoder="", decoder="", src_lang="", tgt_lang="", use_pnc=True), cohere_transcribe=OfflineCohereTranscribeModelConfig(encoder="", decoder="", language="", use_punct=True, use_itn=True), omnilingual=OfflineOmnilingualAsrCtcModelConfig(model=""), funasr_nano=OfflineFunASRNanoModelConfig(encoder_adaptor="", llm="", embedding="", tokenizer="", system_prompt="You are a helpful assistant.", user_prompt="语音转写：", max_new_tokens=512, temperature=1e-06, top_p=0.8, seed=42, language="", itn=True, hotwords=""), medasr=OfflineMedAsrCtcModelConfig(model=""), fire_red_asr_ctc=OfflineFireRedAsrCtcModelConfig(model=""), qwen3_asr=OfflineQwen3ASRModelConfig(conv_frontend="/path/to/qwen3-asr-prefill-artifacts/exports/all/conv_frontend.onnx", encoder="/path/to/qwen3-asr-prefill-artifacts/exports/all/encoder.onnx", decoder="/path/to/qwen3-asr-prefill-artifacts/exports/last/decoder.onnx", tokenizer="/path/to/qwen3-asr-prefill-artifacts/checkpoint/5eb144179a02acc5e5ba31e748d22b0cf3e303b0", hotwords="", max_total_len=512, max_new_tokens=128, temperature=1e-06, top_p=0.8, seed=42), telespeech_ctc="", tokens="", num_threads=4, debug=False, provider="cpu", model_type="", modeling_unit="cjkchar", bpe_vocab=""), lm_config=OfflineLMConfig(model="", scale=0.5, lodr_scale=0.01, lodr_fst="", lodr_backoff_id=-1), ctc_fst_decoder_config=OfflineCtcFstDecoderConfig(graph="", max_active=3000), decoding_method="greedy_search", max_active_paths=4, hotwords_file="", hotwords_score=1.5, blank_penalty=0, rule_fsts="", rule_fars="", hr=HomophoneReplacerConfig(lexicon="", rule_fsts=""))
+Creating recognizer ...
+recognizer created in 2.490 s
+Started
+Done!
+
+/path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0915W0153.wav
+----
+/path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0915W0354.wav
+----
+/path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0915W0419.wav
+----
+/path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0912W0242.wav
+----
+/path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0912W0442.wav
+----
+/path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0912W0169.wav
+----
+/path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0912W0345.wav
+----
+/path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0901W0225.wav
+----
+/path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0901W0145.wav
+----
+/path/to/qwen3-asr-prefill-artifacts/audio/zh-BAC009S0901W0144.wav
+----
+num threads: 4
+decoding method: greedy_search
+Elapsed seconds: 6.301 s
+Real time factor (RTF): 6.301 / 56.759 = 0.111

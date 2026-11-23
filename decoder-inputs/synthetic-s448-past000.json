@@ -1,0 +1,8 @@
+{
+  "source": "Test input builder, fixed seed",
+  "seq": 448,
+  "past_len": 0,
+  "seed": 42,
+  "continuation": "Force the same known synthetic token IDs 100..115",
+  "sha256": "751aed9b61d39fd28200848137614cfc281d7260f97221875c2cfd38b88af37a"
+}

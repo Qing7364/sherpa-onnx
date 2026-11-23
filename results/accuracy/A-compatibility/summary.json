@@ -1,0 +1,36 @@
+{
+  "samples": 200,
+  "identical_count": 200,
+  "languages": {
+    "zh": {
+      "metric": "CER",
+      "samples": 100,
+      "reference_length": 1461,
+      "baseline_errors": 44,
+      "candidate_errors": 44,
+      "baseline_percent": 3.0116358658453115,
+      "candidate_percent": 3.0116358658453115,
+      "delta_percentage_points": 0.0
+    },
+    "en": {
+      "metric": "WER",
+      "samples": 100,
+      "reference_length": 2166,
+      "baseline_errors": 76,
+      "candidate_errors": 76,
+      "baseline_percent": 3.508771929824561,
+      "candidate_percent": 3.508771929824561,
+      "delta_percentage_points": 0.0
+    }
+  },
+  "invalid_utf8_samples": {
+    "baseline": [
+      "BAC009S0913W0228"
+    ],
+    "candidate": [
+      "BAC009S0913W0228"
+    ]
+  },
+  "new_anomalies": [],
+  "passed": true
+}
